@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Rakesh</title>
+    <link>//localhost:1313/tags/</link>
+    <description>Recent content in Tags on Rakesh</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CICD</title>
+      <link>//localhost:1313/tags/cicd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/cicd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CodeQuality</title>
+      <link>//localhost:1313/tags/codequality/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/codequality/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ConfigurationManagement</title>
+      <link>//localhost:1313/tags/configurationmanagement/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/configurationmanagement/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Containerization</title>
+      <link>//localhost:1313/tags/containerization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/containerization/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Database</title>
+      <link>//localhost:1313/tags/database/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/database/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LocalModel</title>
+      <link>//localhost:1313/tags/localmodel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/localmodel/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Monitoring</title>
+      <link>//localhost:1313/tags/monitoring/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/monitoring/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Orchestration</title>
+      <link>//localhost:1313/tags/orchestration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/orchestration/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PrivateCloud</title>
+      <link>//localhost:1313/tags/privatecloud/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/privatecloud/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PublicCloud</title>
+      <link>//localhost:1313/tags/publiccloud/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/publiccloud/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Secrets</title>
+      <link>//localhost:1313/tags/secrets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/secrets/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>VersionControl</title>
+      <link>//localhost:1313/tags/versioncontrol/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/versioncontrol/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

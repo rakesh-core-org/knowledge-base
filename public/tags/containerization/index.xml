@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Containerization on Rakesh</title>
+    <link>//localhost:1313/tags/containerization/</link>
+    <description>Recent content in Containerization on Rakesh</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="//localhost:1313/tags/containerization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Containerd</title>
+      <link>//localhost:1313/docs/containerd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/containerd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Docker</title>
+      <link>//localhost:1313/docs/docker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/docker/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Docker Trusted Registry</title>
+      <link>//localhost:1313/docs/docker/registry/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/docker/registry/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LXC</title>
+      <link>//localhost:1313/docs/lxc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/lxc/</guid>
+      <description>Linux containers are light weight containers, whereas docker is application container. LXC were very useful for local testing and development.&#xA;About lxd LXD is the utility through which we install and manage LXC&#xA;Install LXC via snap snap install lxd&#xA;For listing all available images in repository lxc image list images:&#xA;Launch an LXC lxc launch ubuntu:focal --vm foreman-001&#xA;Connect to lxc container lxc exec foreman-001 -- bash&#xA;login and allow permit root login here vim /etc/ssh/sshd_config</description>
+    </item>
+  </channel>
+</rss>

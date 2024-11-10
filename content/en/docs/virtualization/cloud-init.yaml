@@ -1,0 +1,31 @@
+#cloud-config
+autoinstall:
+  version: 1
+  locale: "en_US.UTF-8"
+  timezone: "Etc/UTC"
+  identity:
+    hostname: k8s-4
+    username: core
+    realname: 'core User'
+    password: $6$rounds=4096$JV3Xm7bOiZ1bZQ4T$uz7DfElSW5EJUeaI8tPpVurDEmeUUnzKnE51pmr03.QZdBz614tIKTFw1yVW2ijEWDZxGKRx4Ys.r3v2gGD8w.
+  network:
+    version: 2
+    ethernets:
+      enp1s0:
+        dhcp4: true
+  storage:
+    layout:
+      name: lvm
+      sizing-policy: all
+  ssh:
+    install-server: true
+    allow-pw: true
+  packages:
+    # Install ipython3 and git, and ensure they are marked as manually
+    # installed.
+    - vim
+    - git
+  updates: all
+  shutdown: reboot
+  # interactive-sections:
+  #   - network

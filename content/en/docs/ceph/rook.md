@@ -1,0 +1,1 @@
+Rook can also connect to external ceph cluster running outside kubernetes 

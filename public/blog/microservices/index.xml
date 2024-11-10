@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>microservices on Rakesh</title>
+    <link>//localhost:1313/blog/microservices/</link>
+    <description>Recent content in microservices on Rakesh</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 15 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/blog/microservices/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>points to consider</title>
+      <link>//localhost:1313/blog/2024/05/15/points-to-consider/</link>
+      <pubDate>Wed, 15 May 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/blog/2024/05/15/points-to-consider/</guid>
+      <description>Important considerations</description>
+    </item>
+  </channel>
+</rss>
