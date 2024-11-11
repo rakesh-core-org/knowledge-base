@@ -8,17 +8,52 @@
     <language>en</language>
     <atom:link href="//localhost:1313/tags/cicd/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Github</title>
-      <link>//localhost:1313/docs/github/</link>
+      <title>Git</title>
+      <link>//localhost:1313/docs/versioncontrol/git/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/github/</guid>
+      <guid>//localhost:1313/docs/versioncontrol/git/</guid>
+      <description>&lt;h2 id=&#34;youtube-video-link&#34;&gt;youtube video link&lt;/h2&gt;&#xA;&lt;h2 id=&#34;github-codebase-link&#34;&gt;github codebase link&lt;/h2&gt;&#xA;&lt;p&gt;Version control system&#xA;why? &amp;ndash;opensource&amp;ndash;?&#xA;Local repository/remote repository&#xA;Options in git&#xA;github&#xA;gittea&#xA;gitlab&#xA;bitbucket&#xA;Azure devops (TFS)&lt;/p&gt;&#xA;&lt;h1 id=&#34;how-to-use-git-effectively-hidden-features-in-git&#34;&gt;how to use git effectively, hidden features in git&lt;/h1&gt;&#xA;&lt;p&gt;origin&lt;/p&gt;&#xA;&lt;p&gt;opensouce/closed &amp;ndash; private repo/&#xA;license &amp;ndash;?&lt;/p&gt;&#xA;&lt;p&gt;How to install git?&lt;/p&gt;&#xA;&lt;p&gt;git - cli&lt;/p&gt;&#xA;&lt;p&gt;Options in which we can create repo &amp;ndash;&amp;gt; local or in repote repo&#xA;Platform independent&lt;/p&gt;&#xA;&lt;h1 id=&#34;to-share-local-copy-without-giving-remote-repo-access&#34;&gt;to share local copy, without giving remote repo access&lt;/h1&gt;&#xA;&lt;p&gt;git init &amp;ndash;bare /path/to/repo.git&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Github</title>
+      <link>//localhost:1313/docs/versioncontrol/github/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/versioncontrol/github/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Continous Integration</title>
+      <link>//localhost:1313/docs/continous-integration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/continous-integration/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GitOps</title>
+      <link>//localhost:1313/docs/gitops/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/gitops/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Argocd</title>
+      <link>//localhost:1313/docs/gitops/argocd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/gitops/argocd/</guid>
+      <description>&lt;h1 id=&#34;enables-auto-deployment&#34;&gt;enables auto deployment&lt;/h1&gt;</description>
+    </item>
+    <item>
+      <title>dapr</title>
+      <link>//localhost:1313/docs/dapr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/dapr/</guid>
       <description></description>
     </item>
     <item>
       <title>Jenkins</title>
-      <link>//localhost:1313/docs/jenkins/</link>
+      <link>//localhost:1313/docs/continous-integration/jenkins/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/jenkins/</guid>
+      <guid>//localhost:1313/docs/continous-integration/jenkins/</guid>
       <description></description>
     </item>
   </channel>

@@ -1,6 +1,6 @@
 ---
 title: "dapr"
-weight: 1
+weight: 
 description: >
   Distributed application runtime 
 categories: [devops]

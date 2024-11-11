@@ -2,7 +2,7 @@
 title: "Github"
 weight: 2
 description: >
-  Git
+  Github
 categories: [devops]
 tags: [VersionControl, CICD]
 ---

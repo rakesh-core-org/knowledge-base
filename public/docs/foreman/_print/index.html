@@ -30,11 +30,12 @@
   <meta property="og:type" content="website">
 
   <meta itemprop="name" content="Foreman">
-  <meta itemprop="description" content="Installation steps of foreman
-">
-  <meta itemprop="wordCount" content="25"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Foreman">
-<meta name="twitter:description" content="Installation steps of foreman
-">
+  <meta itemprop="description" content="Installation steps of foreman">
+  <meta itemprop="dateModified" content="2024-11-10T16:01:20+05:30">
+  <meta itemprop="wordCount" content="34">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Foreman">
+  <meta name="twitter:description" content="Installation steps of foreman">
 
 
 
@@ -184,6 +185,7 @@ This is the multi-page printable view of this section.
 <p>Initial admin password will be in <code>/etc/foreman-installer/scenarios.d/foreman-answers.yaml</code></p>
 <p><code>echo insecure &gt;&gt; ~/.curlrc</code></p>
 <p>Add this if it shows certificate error while doing curl</p>
+<p><code>lxc launch ubuntu:noble --vm foreman -c limits.cpu=8 -c limits.memory=16GiB</code></p>
 
 </div>
 </div>

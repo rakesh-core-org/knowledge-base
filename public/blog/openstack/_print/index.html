@@ -1,0 +1,509 @@
+<!doctype html>
+<html itemscope itemtype="http://schema.org/WebPage" lang="en" class="no-js">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="canonical" type="text/html" href="//localhost:1313/blog/openstack/">
+<link rel="alternate" type="application/rss&#43;xml" href="//localhost:1313/blog/openstack/index.xml">
+<meta name="robots" content="noindex, nofollow">
+
+
+<link rel="shortcut icon" href="/favicons/favicon.ico" >
+<link rel="apple-touch-icon" href="/favicons/apple-touch-icon-180x180.png" sizes="180x180">
+<link rel="icon" type="image/png" href="/favicons/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="/favicons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicons/android-36x36.png" sizes="36x36">
+<link rel="icon" type="image/png" href="/favicons/android-48x48.png" sizes="48x48">
+<link rel="icon" type="image/png" href="/favicons/android-72x72.png" sizes="72x72">
+<link rel="icon" type="image/png" href="/favicons/android-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/favicons/android-144x144.png" sizes="144x144">
+<link rel="icon" type="image/png" href="/favicons/android-192x192.png" sizes="192x192">
+
+<title>Openstack | Rakesh</title>
+<meta name="description" content="my Knowledgebase">
+<meta property="og:url" content="//localhost:1313/blog/openstack/">
+  <meta property="og:site_name" content="Rakesh">
+  <meta property="og:title" content="Openstack">
+  <meta property="og:description" content="Why openstack is complicated We are seeing openstack as a whole single (project)package, but in reality it is not. On the other hand, if you think openstack is a collection of multiple projects, then you are right and wrong too. OOPS!! Don’t believe me? wait.
+Forget everything! Think Openstack like a framework, it integrates multiple projects(Already existing) together. If you are familiar with microservices, openstack will look similar to that. Nova, keystone, neutron ironic, glance were all microservices, each has its own scope of roles and responsibility.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="website">
+
+  <meta itemprop="name" content="Openstack">
+  <meta itemprop="description" content="Why openstack is complicated We are seeing openstack as a whole single (project)package, but in reality it is not. On the other hand, if you think openstack is a collection of multiple projects, then you are right and wrong too. OOPS!! Don’t believe me? wait.
+Forget everything! Think Openstack like a framework, it integrates multiple projects(Already existing) together. If you are familiar with microservices, openstack will look similar to that. Nova, keystone, neutron ironic, glance were all microservices, each has its own scope of roles and responsibility.">
+  <meta itemprop="dateModified" content="2024-11-10T16:01:20+05:30">
+  <meta itemprop="wordCount" content="732">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Openstack">
+  <meta name="twitter:description" content="Why openstack is complicated We are seeing openstack as a whole single (project)package, but in reality it is not. On the other hand, if you think openstack is a collection of multiple projects, then you are right and wrong too. OOPS!! Don’t believe me? wait.
+Forget everything! Think Openstack like a framework, it integrates multiple projects(Already existing) together. If you are familiar with microservices, openstack will look similar to that. Nova, keystone, neutron ironic, glance were all microservices, each has its own scope of roles and responsibility.">
+
+
+
+
+
+<link href="/scss/main.css" rel="stylesheet">
+
+<script
+  src="https://code.jquery.com/jquery-3.7.1.min.js"
+  integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+  crossorigin="anonymous"></script>
+<script defer
+  src="https://unpkg.com/lunr@2.3.9/lunr.min.js"
+  integrity="sha384-203J0SNzyqHby3iU6hzvzltrWi/M41wOP5Gu+BiJMz5nwKykbkUx8Kp7iti0Lpli"
+  crossorigin="anonymous"></script>
+
+  </head>
+  <body class="td-section td-blog">
+    <header>
+      <nav class="td-navbar js-navbar-scroll" data-bs-theme="dark">
+<div class="container-fluid flex-column flex-md-row">
+  <a class="navbar-brand" href="/"><span class="navbar-brand__logo navbar-logo"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64" fill="#000"><g id="SVGRepo_bgCarrier" stroke-width="0"/><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/><g id="SVGRepo_iconCarrier"><style>.st0{fill:#564d99}.st1{opacity:.2}.st2{fill:#231f20}.st3{fill:#fff}</style><g id="Layer_1"><g><circle class="st0" cx="32" cy="32" r="32"/></g><g class="st1"><g><g><path class="st2" d="M42.5 44c-.7.0-1.3-.3-1.7-1-.6-.9-.3-2.2.7-2.8L51.6 34v-.1-.1l-10.1-6.2c-.9-.6-1.2-1.8-.7-2.8.6-.9 1.8-1.2 2.8-.7l10.6 6.6.2.2c.8.8 1.2 1.9 1.2 3 0 1.1-.4 2.2-1.2 3l-.2.2-10.6 6.6C43.2 43.9 42.8 44 42.5 44z"/></g></g><g><g><path class="st2" d="M21.5 44c-.4.0-.7-.1-1-.3L9.9 37.1 9.7 37c-.8-.8-1.2-1.9-1.2-3s.4-2.2 1.2-3l.2-.2 10.6-6.6c.9-.6 2.2-.3 2.8.7.6.9.3 2.2-.7 2.8l-10.1 6.2v.1.1l10.1 6.2c.9.6 1.2 1.8.7 2.8C22.9 43.7 22.2 44 21.5 44z"/></g></g></g><g class="st1"><g><path class="st2" d="M25.5 53c-.2.0-.5.0-.7-.1-1-.4-1.5-1.6-1.2-2.6l13-34c.4-1 1.6-1.5 2.6-1.2 1 .4 1.5 1.6 1.2 2.6l-13 34C27.1 52.5 26.3 53 25.5 53z"/></g></g><g><g><path class="st3" d="M42.5 42c-.7.0-1.3-.3-1.7-1-.6-.9-.3-2.2.7-2.8L51.6 32v-.1l-10.1-6.2c-.9-.6-1.2-1.8-.7-2.8.6-.9 1.8-1.2 2.8-.7l10.6 6.6.2.2c1.6 1.6 1.6 4.3.0 6l-.2.2-10.6 6.6C43.2 41.9 42.8 42 42.5 42z"/></g><g><path class="st3" d="M21.5 42c-.4.0-.7-.1-1-.3L9.9 35.1 9.7 35c-1.6-1.6-1.6-4.3.0-6l.2-.2 10.6-6.6c.9-.6 2.2-.3 2.8.7.6.9.3 2.2-.7 2.8l-10.1 6.2v.1l10.1 6.2c.9.6 1.2 1.8.7 2.8C22.9 41.7 22.2 42 21.5 42z"/></g></g><g><path class="st3" d="M25.5 51c-.2.0-.5.0-.7-.1-1-.4-1.5-1.6-1.2-2.6l13-34c.4-1 1.6-1.5 2.6-1.2 1 .4 1.5 1.6 1.2 2.6l-13 34C27.1 50.5 26.3 51 25.5 51z"/></g></g><g id="Layer_2"/></g></svg></span><span class="navbar-brand__name">Rakesh</span></a>
+  <div class="td-navbar-nav-scroll ms-md-auto" id="main_navbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="/docs/"><span>Docs</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="/blog/"><span>Blog</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://github.com/RakeshNagarajanOrg/knowledge-base" target="_blank" rel="noopener"><span>GitHub</span></a>
+      </li>
+      <li class="td-light-dark-menu nav-item dropdown">
+        <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+  <symbol id="check2" viewBox="0 0 16 16">
+    <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+  </symbol>
+  <symbol id="circle-half" viewBox="0 0 16 16">
+    <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"/>
+  </symbol>
+  <symbol id="moon-stars-fill" viewBox="0 0 16 16">
+    <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
+    <path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"/>
+  </symbol>
+  <symbol id="sun-fill" viewBox="0 0 16 16">
+    <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+  </symbol>
+</svg>
+
+<button class="btn btn-link nav-link dropdown-toggle d-flex align-items-center"
+        id="bd-theme"
+        type="button"
+        aria-expanded="false"
+        data-bs-toggle="dropdown"
+        data-bs-display="static"
+        aria-label="Toggle theme (auto)">
+  <svg class="bi my-1 theme-icon-active"><use href="#circle-half"></use></svg>
+</button>
+<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="bd-theme-text">
+  <li>
+    <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light" aria-pressed="false">
+      <svg class="bi me-2 opacity-50"><use href="#sun-fill"></use></svg>
+      Light
+      <svg class="bi ms-auto d-none"><use href="#check2"></use></svg>
+    </button>
+  </li>
+  <li>
+    <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="false">
+      <svg class="bi me-2 opacity-50"><use href="#moon-stars-fill"></use></svg>
+      Dark
+      <svg class="bi ms-auto d-none"><use href="#check2"></use></svg>
+    </button>
+  </li>
+  <li>
+    <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto" aria-pressed="true">
+      <svg class="bi me-2 opacity-50"><use href="#circle-half"></use></svg>
+      Auto
+      <svg class="bi ms-auto d-none"><use href="#check2"></use></svg>
+    </button>
+  </li>
+</ul>
+
+      </li>
+      </ul>
+  </div>
+  <div class="d-none d-lg-block">
+    <div class="td-search td-search--offline">
+  <div class="td-search__icon"></div>
+  <input
+    type="search"
+    class="td-search__input form-control"
+    placeholder="Search this site…"
+    aria-label="Search this site…"
+    autocomplete="off"
+    
+    data-offline-search-index-json-src="/offline-search-index.json"
+    data-offline-search-base-href="/"
+    data-offline-search-max-results="10"
+  >
+</div>
+  </div>
+</div>
+</nav>
+    </header>
+    <div class="container-fluid td-outer">
+      <div class="td-main">
+        <div class="row flex-xl-nowrap">
+          <div class="col-12 col-md-3 col-xl-2 td-sidebar d-print-none">
+          </div>
+          <div class="d-none d-xl-block col-xl-2 td-toc d-print-none">
+          </div>
+          <main class="col-12 col-md-9 col-xl-8 ps-md-5 pe-md-4" role="main">
+            
+
+
+
+
+<div class="td-content">
+<div class="pageinfo pageinfo-primary d-print-none">
+<p>
+This is the multi-page printable view of this section.
+<a href="#" onclick="print();return false;">Click here to print</a>.
+</p><p>
+<a href="/blog/openstack/">Return to the regular view of this page</a>.
+</p>
+</div>
+
+
+
+<h1 class="title">Openstack</h1>
+
+
+
+
+
+    <ul>
+    
+  
+  
+  
+  
+
+  
+    
+    
+	
+
+    <li><a href="#pg-c3601e3980e267526d8e741d797f1d20"></a></li>
+
+
+
+    
+  
+    
+    
+	
+
+    <li><a href="#pg-1ef4c5cec90ba762da2469c2e8da24e8"></a></li>
+
+
+
+    
+  
+    
+    
+	
+
+    <li><a href="#pg-c701c47867c526846a1877b797185c28"></a></li>
+
+
+
+    
+  
+    
+    
+	
+
+    <li><a href="#pg-7530ad2cff8c323e0e999b83b6b69561"></a></li>
+
+
+
+    
+  
+
+    </ul>
+
+
+<div class="content">
+      <h2 id="why-openstack-is-complicated">Why openstack is complicated</h2>
+<p>We are seeing openstack as a whole single (project)package, but in reality it is not.
+On the other hand, if you think openstack is a collection of multiple projects, then you are right and wrong too. OOPS!! Don&rsquo;t believe me? wait.</p>
+<p>Forget everything! Think Openstack like a framework, it integrates multiple projects(Already existing) together. If you are familiar with microservices, openstack will look similar to that. Nova, keystone, neutron ironic, glance were all microservices, each has its own scope of roles and responsibility.</p>
+<h2 id="how-to-approach-neutron">How to approach neutron</h2>
+<p>Lets take an example of Neutron project. How would you approach it? Directly reading neutron documentation? Then you will be in a rabbit hole. Good thing about openstack docs is its clear, bad thing is its very clear :).</p>
+<p>If you want to start openstack neutron, please don’t start with neutron. Neutron is just a wrapper for many packages. Before that you need to understand atleast basics of below</p>
+<ul>
+<li>OSI model</li>
+<li>Vlan, vxlan</li>
+<li>Subnet</li>
+<li>DHCP(dnsmasq)</li>
+<li>DNS</li>
+<li>Network Switches</li>
+<li>Layer 3</li>
+<li>Overlay tunnel</li>
+<li>Network namespaces</li>
+<li>Mechanism drivers
+<ul>
+<li>Linux bridge</li>
+<li>OVN</li>
+</ul>
+</li>
+<li>Type driver
+<ul>
+<li>vlan</li>
+<li>vxlan</li>
+</ul>
+</li>
+<li>QOS</li>
+<li>Network Protocols</li>
+<li>keepalived (HA for network node)</li>
+</ul>
+<p>and much more.</p>
+<p>Understanding these is important, because you cannot deploy openstack alone in any organization. This requires support from your network team, storage team, Hardware team and much more. In order to give/ask for requirement itself you need to understand each terminology and underlying technology. Orelse forget about fixing the issue, we don&rsquo;t even know where the issue it.</p>
+<p>#Openstack #Devops #metal #MAAS #networking #virtualization
+Follow me to learn more on openstack related topics</p>
+<h2 id="how-about-vendor-support">How about vendor support?</h2>
+<p>Many companies are offering openstack support for deploying and managing but they are too costly. Every vendor follows their own way of deploying and managing openstack. Like Redhat customized the opensource openstack and they will deploy their own customized version of openstack (It means vendor-lock-in). Vexxhost is an another vendor who forces to deploy openstack through their own opensource deployment method Atmosphere. Nowhere in openstack&rsquo;s official documentation mentioned about atmosphere.(It means vendor-lock-in).</p>
+<p>Once you allow vendor to manage your private cloud, you determine the initial quotation, post then vendor determines the price for each task. You will not be a position to negotiate.</p>
+<p>TLDR: if you want to deploy openstack then you want to learn a lot and manage it within your organization is the best way still its the most complicated way and the most time consuming way. If you are lucky you will get a good vendor support.</p>
+<h2 id="why-most-of-openstack-deployment-failing">Why most of openstack deployment failing?</h2>
+<p>Openstack provides different options to choose from, inorder to pick the correct option we need to know what each does. Lets take an example of mechanism drivers, we can enable linux bridge, open vswitch and many more. we can choose one or many. Point here is without knowing what each project does how to pick the right one for your project?</p>
+<p>Without understanding the basics, if you are lucky enough you can deploy openstack. On day 2 your ticking bomb starts it can explode at anytime.</p>
+<p>What will you do if new VM is not launching?
+Where will you check if instance is not getting IP?</p>
+<p>In next 6 months openstack will release a new version, how will you upgrade each openstack projects?</p>
+<h2 id="basics-of-openstack">Basics of openstack</h2>
+<pre><code>Virtualization 
+Storage 
+Networking 
+Message queue 
+database 
+Operating system 
+ntp
+</code></pre>
+<h2 id="how-to-manage-openstack-in-a-better-way">How to manage openstack in a better way</h2>
+<ol>
+<li>Attend/Watch openinfra meet.</li>
+<li>Implement monitoring/logging solution.</li>
+</ol>
+<p>Follow me</p>
+<h2 id="supporting-infrastructure-applications">Supporting Infrastructure applications</h2>
+<ul>
+<li>HAProxy</li>
+<li>keepalived</li>
+<li>rabbitmq</li>
+<li>mysql</li>
+</ul>
+<h2 id="how-to-get-deploy-openstack">How to get deploy openstack</h2>
+<p>You can deploy openstack using many different methods. For the first time if you want to learn, then manual deployment is the best approach, so that you can understand what services you are deploying and how its configured. For deploying production grade you can pick any stable available deployment method mentioned in the docs.</p>
+<p>Makesure the choosen deployment method is capable enough to deploy the necesary projects which you need.</p>
+<p>If your employees have enough knowledge on ansible, then its better to pick openstack-ansible.
+If your employees have enough knowledge on kubernetes, then pick openstack-helm. Don&rsquo;t pick and lock with unknown deployment method.</p>
+<p>Downside could be, openstack-ansible may be slow to execute playbooks if your infrastructure grows and if you have not using tags properly. Due to this you don&rsquo;t need to switch the deployment method which you are not comfortable with.</p>
+
+</div>
+</div>
+
+
+  
+  
+  
+  
+
+  
+  
+
+  
+    
+    
+	
+    
+
+
+  
+
+<div class="td-content" style="page-break-before: always">
+    <h1 id="pg-c3601e3980e267526d8e741d797f1d20"></h1>
+	
+	<div class="td-byline mb-4">
+		
+        
+	</div>
+	<p>Block storage is one to one map (instance-drive)</p>
+
+</div>
+
+
+
+
+
+    
+	
+  
+    
+    
+	
+    
+
+
+  
+
+<div class="td-content" style="page-break-before: always">
+    <h1 id="pg-1ef4c5cec90ba762da2469c2e8da24e8"></h1>
+	
+	<div class="td-byline mb-4">
+		
+        
+	</div>
+	
+</div>
+
+
+
+
+
+    
+	
+  
+    
+    
+	
+    
+
+
+  
+
+<div class="td-content" style="page-break-before: always">
+    <h1 id="pg-c701c47867c526846a1877b797185c28"></h1>
+	
+	<div class="td-byline mb-4">
+		
+        
+	</div>
+	<p>Get mac address</p>
+<p><code>getmac /v</code>
+<code>route print</code> or <code>get-netroute</code></p>
+<p>layer-3 switch &ndash;&gt; has routing capability (Inter VLAN Routing)</p>
+<p>APIPA &ndash;&gt; will comes into picture when no DHCP is configured. IP address will be like 169.254.x.x</p>
+<h1 id="dhcp">DHCP</h1>
+<p>DHCP database &ndash;&gt; dhcp.mdb
+Default lease duration is 8 days</p>
+<p>DHCP authorization &ndash; exclusive for microsoft windows
+only authorized DHCP servers can lease IPaddress</p>
+<p>DHCP address exclution</p>
+<p>DHCP secondary server: for second server add subnet delay (split scope)
+DHCP failover</p>
+<p>DHCP reservation &ndash;&gt; based on mac address, IP address can be reserved</p>
+<h1 id="dns">DNS</h1>
+<p>zones
+resource records (A, AAA, cname,SRV)
+DNS resolver</p>
+<p>SRV- service locator (if we don&rsquo;t know IP address or computer name, our DNS server will give details like who host kerbros authentication)</p>
+<p>Zone
+forward lookup zone (name to IP)
+reverse lookup zone (IP to name) (eg. PTR)</p>
+<h1 id="openflow">Openflow</h1>
+<pre><code>its a protocol, not SDN . Its a southbound interfaces. openflow one of the implementation
+</code></pre>
+
+</div>
+
+
+
+
+
+    
+	
+  
+    
+    
+	
+    
+
+
+  
+
+<div class="td-content" style="page-break-before: always">
+    <h1 id="pg-7530ad2cff8c323e0e999b83b6b69561"></h1>
+	
+	<div class="td-byline mb-4">
+		
+        
+	</div>
+	<p>If you want to start openstack nova, please don’t start with nova.</p>
+<p>Nova is just a wrapper for many packages like</p>
+<p>Openstack provides toolset for integration
+- Provides drivers to integrate with hypervisors
+- SSH key pair
+- console - novnc, SPICE</p>
+<p>openstack nova (scheduler, i think )</p>
+<ul>
+<li>filters</li>
+<li>weights</li>
+</ul>
+<p>openstack conductor &ndash;&gt; updates database</p>
+
+</div>
+
+
+
+
+
+    
+	
+  
+
+
+
+          </main>
+        </div>
+      </div>
+      <footer class="td-footer row d-print-none">
+  <div class="container-fluid">
+    <div class="row mx-md-2">
+      <div class="td-footer__left col-6 col-sm-4 order-sm-1">
+        <ul class="td-footer__links-list">
+  
+  <li class="td-footer__links-item" data-bs-toggle="tooltip" title="Linkedin" aria-label="Linkedin">
+    <a target="_blank" rel="noopener" href="https://www.linkedin.com/in/rakesh-nagarajan/" aria-label="Linkedin">
+      <i class="fa-brands fa-linkedin"></i>
+    </a>
+  </li>
+  
+  <li class="td-footer__links-item" data-bs-toggle="tooltip" title="GitHub" aria-label="GitHub">
+    <a target="_blank" rel="noopener" href="https://github.com/RakeshNagarajanOrg" aria-label="GitHub">
+      <i class="fab fa-github"></i>
+    </a>
+  </li>
+  
+</ul>
+
+      </div><div class="td-footer__right col-6 col-sm-4 order-sm-3">
+        <ul class="td-footer__links-list">
+  
+  <li class="td-footer__links-item" data-bs-toggle="tooltip" title="Mail to Rakesh" aria-label="Mail to Rakesh">
+    <a target="_blank" rel="noopener" href="mailto:narakeshece12@gmail.com" aria-label="Mail to Rakesh">
+      <i class="fa fa-envelope"></i>
+    </a>
+  </li>
+  
+</ul>
+
+      </div><div class="td-footer__center col-12 col-sm-4 py-2 order-sm-2">
+        <span class="td-footer__copyright">&copy;
+    2024
+    <span class="td-footer__authors">Rakesh Nagarajan. All information given in the docs were all based on my own experience. Please be aware your working environment will vary</span></span><span class="td-footer__all_rights_reserved">All Rights Reserved</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <script src="/js/main.js"></script>
+<script defer src="/js/click-to-copy.js" crossorigin="anonymous"></script>
+<script src='/js/tabpane-persist.js'></script>
+
+  </body>
+</html>

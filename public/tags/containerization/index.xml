@@ -9,31 +9,45 @@
     <atom:link href="//localhost:1313/tags/containerization/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Containerd</title>
-      <link>//localhost:1313/docs/containerd/</link>
+      <link>//localhost:1313/docs/containerization/containerd/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/containerd/</guid>
+      <guid>//localhost:1313/docs/containerization/containerd/</guid>
       <description></description>
     </item>
     <item>
       <title>Docker</title>
-      <link>//localhost:1313/docs/docker/</link>
+      <link>//localhost:1313/docs/containerization/docker/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/docker/</guid>
-      <description></description>
+      <guid>//localhost:1313/docs/containerization/docker/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://docs.docker.com/build/building/base-images/#create-a-minimal-base-image-using-scratch&#34;&gt;https://docs.docker.com/build/building/base-images/#create-a-minimal-base-image-using-scratch&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;docker is a client-server architecture&lt;/p&gt;&#xA;&lt;p&gt;server - docker daemon (dockerd) manages docker objects - images-containers-networks- basically all API requests&#xA;client - docker and docker-compose&lt;/p&gt;&#xA;&lt;p&gt;Docker other objects - plugins,extensions&lt;/p&gt;&#xA;&lt;p&gt;Registry&lt;/p&gt;&#xA;&lt;p&gt;docker objects - images-containers-networks&lt;/p&gt;&#xA;&lt;p&gt;port mapping - host_port:container_port&lt;/p&gt;&#xA;&lt;p&gt;buildx - daemon process which runs build&lt;/p&gt;&#xA;&lt;h2 id=&#34;files-in-docker&#34;&gt;files in docker&lt;/h2&gt;&#xA;&lt;p&gt;Dockerfile&#xA;docker-compose.yml&#xA;.dockerignore&lt;/p&gt;</description>
     </item>
     <item>
       <title>Docker Trusted Registry</title>
-      <link>//localhost:1313/docs/docker/registry/</link>
+      <link>//localhost:1313/docs/containerization/docker/registry/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/docker/registry/</guid>
+      <guid>//localhost:1313/docs/containerization/docker/registry/</guid>
       <description></description>
     </item>
     <item>
-      <title>LXC</title>
-      <link>//localhost:1313/docs/lxc/</link>
+      <title>Podman</title>
+      <link>//localhost:1313/docs/containerization/podman/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/lxc/</guid>
-      <description>Linux containers are light weight containers, whereas docker is application container. LXC were very useful for local testing and development.&#xA;About lxd LXD is the utility through which we install and manage LXC&#xA;Install LXC via snap snap install lxd&#xA;For listing all available images in repository lxc image list images:&#xA;Launch an LXC lxc launch ubuntu:focal --vm foreman-001&#xA;Connect to lxc container lxc exec foreman-001 -- bash&#xA;login and allow permit root login here vim /etc/ssh/sshd_config</description>
+      <guid>//localhost:1313/docs/containerization/podman/</guid>
+      <description>&lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;&#xA;&#xA;&#xA;    Documentation of podman is not good as of v5.2.3&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;Podman is supported majorly by redhat&#xA;better to create an account in quay.io for image registry&lt;/p&gt;&#xA;&lt;h1 id=&#34;open-container-initiative&#34;&gt;Open container Initiative&lt;/h1&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://opencontainers.org/&#34;&gt;https://opencontainers.org/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Container runtimes - runc, crun, runv&lt;/p&gt;&#xA;&lt;p&gt;containers can run either as root or non-root&lt;/p&gt;&#xA;&lt;h1 id=&#34;container-image-registry---quayio&#34;&gt;container image registry - quay.io&lt;/h1&gt;</description>
+    </item>
+    <item>
+      <title>LXC</title>
+      <link>//localhost:1313/docs/containerization/lxc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/containerization/lxc/</guid>
+      <description>&lt;p&gt;Linux containers are light weight containers, whereas docker is application container.&#xA;LXC were very useful  for local testing and development.&lt;/p&gt;&#xA;&lt;h2 id=&#34;about-lxd&#34;&gt;About lxd&lt;/h2&gt;&#xA;&lt;p&gt;LXD is the utility through which we install and manage LXC&lt;/p&gt;&#xA;&lt;h2 id=&#34;install-lxc-via-snap&#34;&gt;Install LXC via snap&lt;/h2&gt;&#xA;&lt;p&gt;&lt;code&gt;snap install lxd&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;for-listing-all-available-images-in-repository&#34;&gt;For listing all available images in repository&lt;/h2&gt;&#xA;&lt;p&gt;&lt;code&gt;lxc image list images:&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;launch-an-lxc&#34;&gt;Launch an LXC&lt;/h2&gt;&#xA;&lt;p&gt;&lt;code&gt;lxc launch ubuntu:focal --vm foreman-001&lt;/code&gt;&#xA;&lt;code&gt;lxc launch ubuntu:noble --vm lxc-001&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;lxc launch images:ubuntu/24.04/desktop ubuntu &amp;ndash;vm -c limits.cpu=4 -c limits.memory=8GiB &amp;ndash;console=vga&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Containerization</title>
+      <link>//localhost:1313/docs/containerization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/containerization/</guid>
+      <description>&lt;p&gt;certain things which i didn&amp;rsquo;t focus before starting container.&lt;/p&gt;&#xA;&lt;h1 id=&#34;introduction-to-containerization&#34;&gt;Introduction to containerization&lt;/h1&gt;&#xA;&lt;p&gt;not a technology rather terminology &amp;ndash;&amp;gt; group of linux core concepts&lt;/p&gt;&#xA;&lt;h1 id=&#34;why-containerization&#34;&gt;Why containerization&lt;/h1&gt;&#xA;&lt;p&gt;why containers - what problem does it solves?&#xA;isolation (Process/network) &amp;ndash;&amp;gt; gives security&#xA;Resource limiting&#xA;Environment management(dependencies)&#xA;portability&lt;/p&gt;&#xA;&lt;h1 id=&#34;why-its-only-possible-to-run-linux-containers-in-linux---&#34;&gt;why its only possible to run linux containers in linux &amp;ndash;?&lt;/h1&gt;&#xA;&lt;p&gt;windows - also have kernel to run windows containers&lt;/p&gt;&#xA;&lt;h1 id=&#34;linux-kernel&#34;&gt;linux Kernel&lt;/h1&gt;&#xA;&lt;p&gt;GNU General Public License (GPL)&#xA;&lt;a href=&#34;https://www.redhat.com/en/topics/linux/what-is-the-linux-kernel&#34;&gt;https://www.redhat.com/en/topics/linux/what-is-the-linux-kernel&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

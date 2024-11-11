@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Storage on Rakesh</title>
+    <link>//localhost:1313/tags/storage/</link>
+    <description>Recent content in Storage on Rakesh</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="//localhost:1313/tags/storage/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ceph</title>
+      <link>//localhost:1313/docs/storage/ceph/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/storage/ceph/</guid>
+      <description>&lt;h1 id=&#34;ceph-storage-cluster&#34;&gt;Ceph storage cluster&lt;/h1&gt;&#xA;&lt;p&gt;Once ceph storage cluster is deployed we can configure below&#xA;ceph is based on RADOS - Reliable Autonomic Distributed Object Store. which handles storage, distribution and replication of data accross cluster&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;    uses CRUSH algorithm - how and where the data is stored&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h2 id=&#34;configurations&#34;&gt;configurations&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;OSD - &amp;gt; each OSD is backed by  a single storage device&lt;/li&gt;&#xA;&lt;li&gt;monitor -&amp;gt; cluster membership, authentication,&lt;/li&gt;&#xA;&lt;li&gt;manager -&amp;gt; provides interface to external monitoring and management system&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;OSD backend - Bluestore&#xA;Metadata management with RocksDB(key/value database)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Storage</title>
+      <link>//localhost:1313/docs/storage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/storage/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Openstack on Rakesh</title>
+    <link>//localhost:1313/docs/orchestration/openstack/</link>
+    <description>Recent content in Openstack on Rakesh</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="//localhost:1313/docs/orchestration/openstack/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>//localhost:1313/docs/orchestration/openstack/nova/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/orchestration/openstack/nova/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://docs.openstack.org/nova/latest/user/index.html&#34;&gt;https://docs.openstack.org/nova/latest/user/index.html&lt;/a&gt;  &amp;ndash; does not include virtualization software&lt;/p&gt;&#xA;&lt;p&gt;virtualization - kvm&#xA;cloud-init/kickstart&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

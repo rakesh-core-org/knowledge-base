@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nocloud on Rakesh</title>
+    <link>//localhost:1313/tags/nocloud/</link>
+    <description>Recent content in Nocloud on Rakesh</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="//localhost:1313/tags/nocloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>KVM</title>
+      <link>//localhost:1313/docs/cloud/virtualization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/cloud/virtualization/</guid>
+      <description>&lt;p&gt;vSphere offers a maximum of 12TB of RAM per host with a maximum of 64 hosts per cluster&lt;/p&gt;&#xA;&lt;h1 id=&#34;create-virtual-machine-using-command&#34;&gt;Create virtual machine using command&lt;/h1&gt;&#xA;&lt;p&gt;virt-install &lt;br&gt;&#xA;-n k8s4 &lt;br&gt;&#xA;&amp;ndash;description &amp;ldquo;kubernetes worker node&amp;rdquo; &lt;br&gt;&#xA;&amp;ndash;os-variant=ubuntu24.04 &lt;br&gt;&#xA;&amp;ndash;ram=8224 &lt;br&gt;&#xA;&amp;ndash;vcpus=4 &lt;br&gt;&#xA;&amp;ndash;disk path=/var/lib/libvirt/images/k8s4.img,bus=virtio,size=100 &lt;br&gt;&#xA;&amp;ndash;graphics none &lt;br&gt;&#xA;&amp;ndash;location /data/ISO/ubuntu-24.04.1-live-server-amd64.iso,kernel=casper/vmlinuz,initrd=casper/initrd &lt;br&gt;&#xA;&amp;ndash;network network=default &lt;br&gt;&#xA;&amp;ndash;extra-args=&amp;lsquo;console=tty0 console=ttyS0,115200n8 serial autoinstall ds=nocloud&amp;rsquo; &lt;br&gt;&#xA;&amp;ndash;cloud-init user-data=/data/knowledge-base/content/en/docs/virtualization/cloud-init.yaml&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

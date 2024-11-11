@@ -2,76 +2,200 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/blog/general/</loc>
-    <lastmod>2024-05-15T00:00:00+00:00</lastmod>
+    <loc>//localhost:1313/docs/configuration-management/ansible/awx/</loc>
   </url><url>
-    <loc>//localhost:1313/docs/ansible/</loc>
+    <loc>//localhost:1313/docs/containerization/containerd/</loc>
+    <lastmod>2024-11-10T16:01:20+05:30</lastmod>
   </url><url>
-    <loc>//localhost:1313/docs/ansible/awx/</loc>
+    <loc>//localhost:1313/docs/containerization/docker/</loc>
+    <lastmod>2024-11-10T16:01:20+05:30</lastmod>
   </url><url>
-    <loc>//localhost:1313/docs/containerd/</loc>
+    <loc>//localhost:1313/docs/containerization/docker/dockerswarm/</loc>
+    <lastmod>2024-11-10T16:01:20+05:30</lastmod>
   </url><url>
-    <loc>//localhost:1313/docs/docker/</loc>
-  </url><url>
-    <loc>//localhost:1313/docs/docker/dockerswarm/</loc>
-  </url><url>
-    <loc>//localhost:1313/docs/docker/registry/</loc>
+    <loc>//localhost:1313/docs/containerization/docker/registry/</loc>
+    <lastmod>2024-11-10T16:01:20+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/docs/</loc>
-    <lastmod>2024-05-18T18:12:37+05:30</lastmod>
+    <lastmod>2024-11-10T16:01:20+05:30</lastmod>
   </url><url>
-    <loc>//localhost:1313/docs/kubernetes/helm/</loc>
+    <loc>//localhost:1313/blog/general/</loc>
+    <lastmod>2024-11-10T16:01:20+05:30</lastmod>
   </url><url>
-    <loc>//localhost:1313/docs/kubernetes/</loc>
+    <loc>//localhost:1313/docs/orchestration/kubernetes/helm/</loc>
+  </url><url>
+    <loc>//localhost:1313/docs/orchestration/kubernetes/kind/</loc>
+  </url><url>
+    <loc>//localhost:1313/docs/containerization/podman/</loc>
+    <lastmod>2024-11-10T16:01:20+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/docs/monitoring-tracing/prometheus/</loc>
+  </url><url>
+    <loc>//localhost:1313/docs/versioncontrol/</loc>
+    <lastmod>2024-11-10T16:01:20+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/docs/code-quality/</loc>
+  </url><url>
+    <loc>//localhost:1313/docs/versioncontrol/git/</loc>
+    <lastmod>2024-11-10T16:01:20+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/docs/versioncontrol/github/</loc>
+    <lastmod>2024-11-10T16:01:20+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/docs/monitoring-tracing/grafana/</loc>
+  </url><url>
+    <loc>//localhost:1313/docs/containerization/lxc/</loc>
+    <lastmod>2024-11-10T16:01:20+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/blog/microservices/</loc>
-    <lastmod>2024-05-15T00:00:00+00:00</lastmod>
+    <lastmod>2024-11-10T16:01:20+05:30</lastmod>
   </url><url>
-    <loc>//localhost:1313/docs/azure/</loc>
+    <loc>//localhost:1313/docs/code-quality/sonarqube/</loc>
   </url><url>
-    <loc>//localhost:1313/docs/github/</loc>
+    <loc>//localhost:1313/docs/continous-integration/</loc>
   </url><url>
-    <loc>//localhost:1313/docs/jenkins/</loc>
+    <loc>//localhost:1313/blog/openstack/</loc>
+    <lastmod>2024-11-10T16:01:20+05:30</lastmod>
   </url><url>
-    <loc>//localhost:1313/docs/lxc/</loc>
-    <lastmod>2024-05-18T18:12:37+05:30</lastmod>
+    <loc>//localhost:1313/docs/monitoring-tracing/telemetry/</loc>
   </url><url>
-    <loc>//localhost:1313/docs/ollama/</loc>
+    <loc>//localhost:1313/docs/containerization/</loc>
+    <lastmod>2024-11-10T16:01:20+05:30</lastmod>
   </url><url>
-    <loc>//localhost:1313/docs/openstack/</loc>
+    <loc>//localhost:1313/docs/orchestration/</loc>
   </url><url>
-    <loc>//localhost:1313/docs/foreman/</loc>
+    <loc>//localhost:1313/docs/configuration-management/ansible/</loc>
   </url><url>
-    <loc>//localhost:1313/docs/keycloak/</loc>
+    <loc>//localhost:1313/docs/storage/ceph/</loc>
+  </url><url>
+    <loc>//localhost:1313/docs/configuration-management/</loc>
+  </url><url>
+    <loc>//localhost:1313/docs/storage/</loc>
+  </url><url>
+    <loc>//localhost:1313/docs/database/</loc>
+    <lastmod>2024-11-10T16:01:20+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/docs/binary-artifacts/</loc>
+  </url><url>
+    <loc>//localhost:1313/docs/gitops/</loc>
   </url><url>
     <loc>//localhost:1313/docs/vault/</loc>
+    <lastmod>2024-11-10T16:01:20+05:30</lastmod>
   </url><url>
-    <loc>//localhost:1313/docs/sonarqube/</loc>
+    <loc>//localhost:1313/docs/monitoring-tracing/</loc>
   </url><url>
-    <loc>//localhost:1313/docs/grafana/</loc>
-  </url><url>
-    <loc>//localhost:1313/docs/mongodb/</loc>
-  </url><url>
-    <loc>//localhost:1313/docs/prometheus/</loc>
+    <loc>//localhost:1313/docs/database/mongodb/</loc>
+    <lastmod>2024-11-10T16:01:20+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/blog/</loc>
-    <lastmod>2024-05-18T18:12:37+05:30</lastmod>
+    <lastmod>2024-11-10T16:01:20+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/blog/2024/05/15/before-contributing/</loc>
-    <lastmod>2024-05-15T00:00:00+00:00</lastmod>
+    <lastmod>2024-11-10T16:01:20+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/blog/2024/05/15/devops/</loc>
+    <lastmod>2024-11-10T16:01:20+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/blog/2024/05/15/points-to-consider/</loc>
-    <lastmod>2024-05-15T00:00:00+00:00</lastmod>
+    <lastmod>2024-11-10T16:01:20+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/blog/infrastructure/</loc>
+    <lastmod>2024-11-10T16:01:20+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/blog/1/01/01/</loc>
+    <lastmod>2024-11-10T16:01:20+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/blog/1/01/01/</loc>
+    <lastmod>2024-11-10T16:01:20+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/blog/1/01/01/</loc>
+    <lastmod>2024-11-10T16:01:20+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/blog/1/01/01/</loc>
+    <lastmod>2024-11-10T16:01:20+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/docs/cloud/openstack/nova/</loc>
+  </url><url>
+    <loc>//localhost:1313/docs/cloud/virtualization/</loc>
+  </url><url>
+    <loc>//localhost:1313/docs/documentation/hugo/</loc>
+  </url><url>
+    <loc>//localhost:1313/docs/linux/</loc>
+    <lastmod>2024-11-10T16:01:20+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/docs/linux/boot-process/</loc>
+    <lastmod>2024-11-10T16:01:20+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/docs/linux/boot/</loc>
+    <lastmod>2024-11-10T16:01:20+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/docs/linux/logs/</loc>
+    <lastmod>2024-11-10T16:01:20+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/docs/linux/network/</loc>
+    <lastmod>2024-11-10T16:01:20+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/docs/linux/packagemanagers/</loc>
+    <lastmod>2024-11-10T16:01:20+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/docs/linux/previlege/</loc>
+    <lastmod>2024-11-10T16:01:20+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/docs/linux/repositories/</loc>
+    <lastmod>2024-11-10T16:01:20+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/docs/linux/schedulers/</loc>
+    <lastmod>2024-11-10T16:01:20+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/docs/linux/selinux/</loc>
+    <lastmod>2024-11-10T16:01:20+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/docs/linux/services/</loc>
+    <lastmod>2024-11-10T16:01:20+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/docs/linux/storage/</loc>
+    <lastmod>2024-11-10T16:01:20+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/docs/linux/target/</loc>
+    <lastmod>2024-11-10T16:01:20+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/docs/linux/timezone/</loc>
+    <lastmod>2024-11-10T16:01:20+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/docs/orchestration/openshift/</loc>
+  </url><url>
+    <loc>//localhost:1313/docs/python/poetry/</loc>
+    <lastmod>2024-11-10T16:01:20+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/docs/storage/ceph/install/</loc>
+  </url><url>
+    <loc>//localhost:1313/docs/storage/ceph/practical/</loc>
+  </url><url>
+    <loc>//localhost:1313/docs/storage/ceph/prepare/</loc>
+  </url><url>
+    <loc>//localhost:1313/docs/storage/ceph/rook/</loc>
+  </url><url>
+    <loc>//localhost:1313/docs/versioncontrol/git/gitconfig/</loc>
+    <lastmod>2024-11-10T16:01:20+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/docs/windows/wsl/</loc>
+    <lastmod>2024-11-10T16:01:20+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/</loc>
-    <lastmod>2024-05-18T18:12:37+05:30</lastmod>
+    <lastmod>2024-11-10T16:01:20+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/docs/gitops/argocd/</loc>
   </url><url>
     <loc>//localhost:1313/categories/artificialintelligence/</loc>
+    <lastmod>2024-11-10T16:01:20+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/docs/cloud/azure/</loc>
   </url><url>
     <loc>//localhost:1313/categories/</loc>
-    <lastmod>2024-05-18T18:12:37+05:30</lastmod>
+    <lastmod>2024-11-10T16:01:20+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/cicd/</loc>
+    <lastmod>2024-11-10T16:01:20+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/categories/cloud/</loc>
   </url><url>
@@ -80,28 +204,52 @@
     <loc>//localhost:1313/tags/configurationmanagement/</loc>
   </url><url>
     <loc>//localhost:1313/tags/containerization/</loc>
-    <lastmod>2024-05-18T18:12:37+05:30</lastmod>
+    <lastmod>2024-11-10T16:01:20+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/docs/dapr/</loc>
+    <lastmod>2024-11-10T16:01:20+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/database/</loc>
+    <lastmod>2024-11-10T16:01:20+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/categories/devops/</loc>
-    <lastmod>2024-05-18T18:12:37+05:30</lastmod>
+    <lastmod>2024-11-10T16:01:20+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/docs/cloud/foreman/</loc>
+  </url><url>
+    <loc>//localhost:1313/docs/continous-integration/jenkins/</loc>
+  </url><url>
+    <loc>//localhost:1313/docs/keycloak/</loc>
+    <lastmod>2024-11-10T16:01:20+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/docs/orchestration/kubernetes/</loc>
   </url><url>
     <loc>//localhost:1313/tags/localmodel/</loc>
+    <lastmod>2024-11-10T16:01:20+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/monitoring/</loc>
   </url><url>
+    <loc>//localhost:1313/docs/ollama/</loc>
+    <lastmod>2024-11-10T16:01:20+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/docs/cloud/openstack/</loc>
+  </url><url>
     <loc>//localhost:1313/tags/orchestration/</loc>
+    <lastmod>2024-11-10T16:01:20+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/privatecloud/</loc>
   </url><url>
     <loc>//localhost:1313/tags/publiccloud/</loc>
   </url><url>
     <loc>//localhost:1313/tags/secrets/</loc>
+    <lastmod>2024-11-10T16:01:20+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/storage/</loc>
   </url><url>
     <loc>//localhost:1313/tags/</loc>
-    <lastmod>2024-05-18T18:12:37+05:30</lastmod>
+    <lastmod>2024-11-10T16:01:20+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/versioncontrol/</loc>
+    <lastmod>2024-11-10T16:01:20+05:30</lastmod>
   </url>
 </urlset>

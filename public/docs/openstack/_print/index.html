@@ -30,11 +30,13 @@
   <meta property="og:type" content="website">
 
   <meta itemprop="name" content="Openstack">
-  <meta itemprop="description" content="Private cloud
-">
-  <meta itemprop="keywords" content="PrivateCloud"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Openstack">
-<meta name="twitter:description" content="Private cloud
-">
+  <meta itemprop="description" content="Private cloud">
+  <meta itemprop="dateModified" content="2024-11-10T16:01:20+05:30">
+  <meta itemprop="wordCount" content="46">
+  <meta itemprop="keywords" content="PrivateCloud">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Openstack">
+  <meta name="twitter:description" content="Private cloud">
 
 
 
@@ -175,12 +177,30 @@ This is the multi-page printable view of this section.
   
 
   
+    
+    
+	
+<li>1: <a href="#pg-21d4c5beeb24cc3df045a6292f40d2fe"></a></li>
+
+
+    
+  
 
     </ul>
 
 
 <div class="content">
-      
+      <h2 id="setup">Setup</h2>
+<pre tabindex="0"><code>lxc launch ubuntu:noble --vm openstack-ctl-01 -c limits.cpu=8 -c limits.memory=16GiB
+
+lxc launch ubuntu:noble --vm openstack-data-01 -c limits.cpu=8 -c limits.memory=16GiB
+
+lxc launch ubuntu:noble --vm openstack-hypervisor-01 -c limits.cpu=8 -c limits.memory=16GiB
+
+lxc launch ubuntu:noble --vm openstack-mgnt-01 -c limits.cpu=8 -c limits.memory=16GiB
+
+lxc launch ubuntu:noble --vm openstack-deployment -c limits.cpu=8 -c limits.memory=16GiB
+</code></pre>
 </div>
 </div>
 
@@ -193,6 +213,26 @@ This is the multi-page printable view of this section.
   
   
 
+  
+    
+    
+	
+    
+
+<div class="td-content" style="">
+    
+	<h1 id="pg-21d4c5beeb24cc3df045a6292f40d2fe">1 - </h1>
+    
+	<p><a href="https://docs.openstack.org/nova/latest/user/index.html">https://docs.openstack.org/nova/latest/user/index.html</a>  &ndash; does not include virtualization software</p>
+<p>virtualization - kvm
+cloud-init/kickstart</p>
+
+</div>
+
+
+
+    
+	
   
 
 

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ceph on Rakesh</title>
+    <link>//localhost:1313/docs/storage/ceph/</link>
+    <description>Recent content in Ceph on Rakesh</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="//localhost:1313/docs/storage/ceph/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>//localhost:1313/docs/storage/ceph/install/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/storage/ceph/install/</guid>
+      <description>&lt;p&gt;Install cephadm via repository manager&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;wget -q -O- &amp;#39;https://download.ceph.com/keys/release.asc&amp;#39; | sudo apt-key add -&#xA;sudo apt-add-repository &amp;#39;deb https://download.ceph.com/debian-reef/ jammy main&amp;#39;&#xA;apt-get update&#xA;apt-get install cephadm&#xA;cephadm version&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;apt install ceph-common&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Reference: &lt;a href=&#34;https://docs.ceph.com/en/latest/install/get-packages/&#34;&gt;https://docs.ceph.com/en/latest/install/get-packages/&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>//localhost:1313/docs/storage/ceph/practical/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/storage/ceph/practical/</guid>
+      <description>&lt;h2 id=&#34;ceph-configuration-file&#34;&gt;Ceph configuration file&lt;/h2&gt;&#xA;&lt;p&gt;$CEPH_CONF (that is, the path following the $CEPH_CONF environment variable)&#xA;-c path/path (that is, the -c command line argument)&#xA;/etc/ceph/$cluster.conf&#xA;~/.ceph/$cluster.conf&#xA;./$cluster.conf (that is, in the current working directory)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>//localhost:1313/docs/storage/ceph/prepare/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/storage/ceph/prepare/</guid>
+      <description>&lt;p&gt;MBR and  GPT&lt;/p&gt;&#xA;&lt;h2 id=&#34;for-partitioning-manually&#34;&gt;For partitioning manually&lt;/h2&gt;&#xA;&lt;p&gt;use fdisk or parted or gdisk depending on the disk size&lt;/p&gt;&#xA;&lt;p&gt;lsblk &amp;ndash;fs&lt;/p&gt;&#xA;&lt;h2 id=&#34;via-gdisk&#34;&gt;Via gdisk&lt;/h2&gt;&#xA;&lt;h2 id=&#34;via-parted&#34;&gt;Via parted&lt;/h2&gt;&#xA;&lt;p&gt;parted /dev/sda unit GB  print&lt;/p&gt;&#xA;&lt;p&gt;parted /dev/sda mkpart primary ext4 1MiB 20GB&#xA;sudo mkfs.ext4 /dev/sda1&#xA;mount /dev/sda1 /data&lt;/p&gt;&#xA;&lt;h1 id=&#34;resize-partition&#34;&gt;resize partition&lt;/h1&gt;&#xA;&lt;p&gt;parted /dev/sda resizepart 1 210GB&#xA;udevadm settle&#xA;resize2fs /dev/sda1&lt;/p&gt;&#xA;&lt;h1 id=&#34;create-swap-partitioning&#34;&gt;Create swap partitioning&lt;/h1&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>//localhost:1313/docs/storage/ceph/rook/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/storage/ceph/rook/</guid>
+      <description>&lt;p&gt;Rook can also connect to external ceph cluster running outside kubernetes&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

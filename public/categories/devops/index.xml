@@ -8,102 +8,214 @@
     <language>en</language>
     <atom:link href="//localhost:1313/categories/devops/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Ansible</title>
-      <link>//localhost:1313/docs/ansible/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/ansible/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>AWX</title>
-      <link>//localhost:1313/docs/ansible/awx/</link>
+      <link>//localhost:1313/docs/configuration-management/ansible/awx/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/ansible/awx/</guid>
+      <guid>//localhost:1313/docs/configuration-management/ansible/awx/</guid>
       <description></description>
     </item>
     <item>
       <title>Containerd</title>
-      <link>//localhost:1313/docs/containerd/</link>
+      <link>//localhost:1313/docs/containerization/containerd/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/containerd/</guid>
+      <guid>//localhost:1313/docs/containerization/containerd/</guid>
       <description></description>
     </item>
     <item>
       <title>Docker</title>
-      <link>//localhost:1313/docs/docker/</link>
+      <link>//localhost:1313/docs/containerization/docker/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/docker/</guid>
-      <description></description>
+      <guid>//localhost:1313/docs/containerization/docker/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://docs.docker.com/build/building/base-images/#create-a-minimal-base-image-using-scratch&#34;&gt;https://docs.docker.com/build/building/base-images/#create-a-minimal-base-image-using-scratch&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;docker is a client-server architecture&lt;/p&gt;&#xA;&lt;p&gt;server - docker daemon (dockerd) manages docker objects - images-containers-networks- basically all API requests&#xA;client - docker and docker-compose&lt;/p&gt;&#xA;&lt;p&gt;Docker other objects - plugins,extensions&lt;/p&gt;&#xA;&lt;p&gt;Registry&lt;/p&gt;&#xA;&lt;p&gt;docker objects - images-containers-networks&lt;/p&gt;&#xA;&lt;p&gt;port mapping - host_port:container_port&lt;/p&gt;&#xA;&lt;p&gt;buildx - daemon process which runs build&lt;/p&gt;&#xA;&lt;h2 id=&#34;files-in-docker&#34;&gt;files in docker&lt;/h2&gt;&#xA;&lt;p&gt;Dockerfile&#xA;docker-compose.yml&#xA;.dockerignore&lt;/p&gt;</description>
     </item>
     <item>
       <title>Docker Swarm</title>
-      <link>//localhost:1313/docs/docker/dockerswarm/</link>
+      <link>//localhost:1313/docs/containerization/docker/dockerswarm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/docker/dockerswarm/</guid>
+      <guid>//localhost:1313/docs/containerization/docker/dockerswarm/</guid>
       <description></description>
     </item>
     <item>
       <title>Docker Trusted Registry</title>
-      <link>//localhost:1313/docs/docker/registry/</link>
+      <link>//localhost:1313/docs/containerization/docker/registry/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/docker/registry/</guid>
+      <guid>//localhost:1313/docs/containerization/docker/registry/</guid>
       <description></description>
+    </item>
+    <item>
+      <title>Podman</title>
+      <link>//localhost:1313/docs/containerization/podman/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/containerization/podman/</guid>
+      <description>&lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;&#xA;&#xA;&#xA;    Documentation of podman is not good as of v5.2.3&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;Podman is supported majorly by redhat&#xA;better to create an account in quay.io for image registry&lt;/p&gt;&#xA;&lt;h1 id=&#34;open-container-initiative&#34;&gt;Open container Initiative&lt;/h1&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://opencontainers.org/&#34;&gt;https://opencontainers.org/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Container runtimes - runc, crun, runv&lt;/p&gt;&#xA;&lt;p&gt;containers can run either as root or non-root&lt;/p&gt;&#xA;&lt;h1 id=&#34;container-image-registry---quayio&#34;&gt;container image registry - quay.io&lt;/h1&gt;</description>
+    </item>
+    <item>
+      <title>Prometheus</title>
+      <link>//localhost:1313/docs/monitoring-tracing/prometheus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/monitoring-tracing/prometheus/</guid>
+      <description>&lt;h1 id=&#34;thanos-for-high-scalable-system&#34;&gt;Thanos for high scalable system&lt;/h1&gt;</description>
+    </item>
+    <item>
+      <title>Version control</title>
+      <link>//localhost:1313/docs/versioncontrol/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/versioncontrol/</guid>
+      <description>&lt;p&gt;Version control is the important step in any project&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Code Quality</title>
+      <link>//localhost:1313/docs/code-quality/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/code-quality/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Git</title>
+      <link>//localhost:1313/docs/versioncontrol/git/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/versioncontrol/git/</guid>
+      <description>&lt;h2 id=&#34;youtube-video-link&#34;&gt;youtube video link&lt;/h2&gt;&#xA;&lt;h2 id=&#34;github-codebase-link&#34;&gt;github codebase link&lt;/h2&gt;&#xA;&lt;p&gt;Version control system&#xA;why? &amp;ndash;opensource&amp;ndash;?&#xA;Local repository/remote repository&#xA;Options in git&#xA;github&#xA;gittea&#xA;gitlab&#xA;bitbucket&#xA;Azure devops (TFS)&lt;/p&gt;&#xA;&lt;h1 id=&#34;how-to-use-git-effectively-hidden-features-in-git&#34;&gt;how to use git effectively, hidden features in git&lt;/h1&gt;&#xA;&lt;p&gt;origin&lt;/p&gt;&#xA;&lt;p&gt;opensouce/closed &amp;ndash; private repo/&#xA;license &amp;ndash;?&lt;/p&gt;&#xA;&lt;p&gt;How to install git?&lt;/p&gt;&#xA;&lt;p&gt;git - cli&lt;/p&gt;&#xA;&lt;p&gt;Options in which we can create repo &amp;ndash;&amp;gt; local or in repote repo&#xA;Platform independent&lt;/p&gt;&#xA;&lt;h1 id=&#34;to-share-local-copy-without-giving-remote-repo-access&#34;&gt;to share local copy, without giving remote repo access&lt;/h1&gt;&#xA;&lt;p&gt;git init &amp;ndash;bare /path/to/repo.git&lt;/p&gt;</description>
     </item>
     <item>
       <title>Github</title>
-      <link>//localhost:1313/docs/github/</link>
+      <link>//localhost:1313/docs/versioncontrol/github/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/github/</guid>
+      <guid>//localhost:1313/docs/versioncontrol/github/</guid>
       <description></description>
     </item>
     <item>
-      <title>Jenkins</title>
-      <link>//localhost:1313/docs/jenkins/</link>
+      <title>Grafana</title>
+      <link>//localhost:1313/docs/monitoring-tracing/grafana/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/jenkins/</guid>
+      <guid>//localhost:1313/docs/monitoring-tracing/grafana/</guid>
       <description></description>
     </item>
     <item>
       <title>LXC</title>
-      <link>//localhost:1313/docs/lxc/</link>
+      <link>//localhost:1313/docs/containerization/lxc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/lxc/</guid>
-      <description>Linux containers are light weight containers, whereas docker is application container. LXC were very useful for local testing and development.&#xA;About lxd LXD is the utility through which we install and manage LXC&#xA;Install LXC via snap snap install lxd&#xA;For listing all available images in repository lxc image list images:&#xA;Launch an LXC lxc launch ubuntu:focal --vm foreman-001&#xA;Connect to lxc container lxc exec foreman-001 -- bash&#xA;login and allow permit root login here vim /etc/ssh/sshd_config</description>
+      <guid>//localhost:1313/docs/containerization/lxc/</guid>
+      <description>&lt;p&gt;Linux containers are light weight containers, whereas docker is application container.&#xA;LXC were very useful  for local testing and development.&lt;/p&gt;&#xA;&lt;h2 id=&#34;about-lxd&#34;&gt;About lxd&lt;/h2&gt;&#xA;&lt;p&gt;LXD is the utility through which we install and manage LXC&lt;/p&gt;&#xA;&lt;h2 id=&#34;install-lxc-via-snap&#34;&gt;Install LXC via snap&lt;/h2&gt;&#xA;&lt;p&gt;&lt;code&gt;snap install lxd&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;for-listing-all-available-images-in-repository&#34;&gt;For listing all available images in repository&lt;/h2&gt;&#xA;&lt;p&gt;&lt;code&gt;lxc image list images:&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;launch-an-lxc&#34;&gt;Launch an LXC&lt;/h2&gt;&#xA;&lt;p&gt;&lt;code&gt;lxc launch ubuntu:focal --vm foreman-001&lt;/code&gt;&#xA;&lt;code&gt;lxc launch ubuntu:noble --vm lxc-001&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;lxc launch images:ubuntu/24.04/desktop ubuntu &amp;ndash;vm -c limits.cpu=4 -c limits.memory=8GiB &amp;ndash;console=vga&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SonarQube</title>
+      <link>//localhost:1313/docs/code-quality/sonarqube/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/code-quality/sonarqube/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Continous Integration</title>
+      <link>//localhost:1313/docs/continous-integration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/continous-integration/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Telemetry</title>
+      <link>//localhost:1313/docs/monitoring-tracing/telemetry/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/monitoring-tracing/telemetry/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Containerization</title>
+      <link>//localhost:1313/docs/containerization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/containerization/</guid>
+      <description>&lt;p&gt;certain things which i didn&amp;rsquo;t focus before starting container.&lt;/p&gt;&#xA;&lt;h1 id=&#34;introduction-to-containerization&#34;&gt;Introduction to containerization&lt;/h1&gt;&#xA;&lt;p&gt;not a technology rather terminology &amp;ndash;&amp;gt; group of linux core concepts&lt;/p&gt;&#xA;&lt;h1 id=&#34;why-containerization&#34;&gt;Why containerization&lt;/h1&gt;&#xA;&lt;p&gt;why containers - what problem does it solves?&#xA;isolation (Process/network) &amp;ndash;&amp;gt; gives security&#xA;Resource limiting&#xA;Environment management(dependencies)&#xA;portability&lt;/p&gt;&#xA;&lt;h1 id=&#34;why-its-only-possible-to-run-linux-containers-in-linux---&#34;&gt;why its only possible to run linux containers in linux &amp;ndash;?&lt;/h1&gt;&#xA;&lt;p&gt;windows - also have kernel to run windows containers&lt;/p&gt;&#xA;&lt;h1 id=&#34;linux-kernel&#34;&gt;linux Kernel&lt;/h1&gt;&#xA;&lt;p&gt;GNU General Public License (GPL)&#xA;&lt;a href=&#34;https://www.redhat.com/en/topics/linux/what-is-the-linux-kernel&#34;&gt;https://www.redhat.com/en/topics/linux/what-is-the-linux-kernel&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ansible</title>
+      <link>//localhost:1313/docs/configuration-management/ansible/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/configuration-management/ansible/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ceph</title>
+      <link>//localhost:1313/docs/storage/ceph/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/storage/ceph/</guid>
+      <description>&lt;h1 id=&#34;ceph-storage-cluster&#34;&gt;Ceph storage cluster&lt;/h1&gt;&#xA;&lt;p&gt;Once ceph storage cluster is deployed we can configure below&#xA;ceph is based on RADOS - Reliable Autonomic Distributed Object Store. which handles storage, distribution and replication of data accross cluster&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;    uses CRUSH algorithm - how and where the data is stored&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h2 id=&#34;configurations&#34;&gt;configurations&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;OSD - &amp;gt; each OSD is backed by  a single storage device&lt;/li&gt;&#xA;&lt;li&gt;monitor -&amp;gt; cluster membership, authentication,&lt;/li&gt;&#xA;&lt;li&gt;manager -&amp;gt; provides interface to external monitoring and management system&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;OSD backend - Bluestore&#xA;Metadata management with RocksDB(key/value database)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Configuration Managenent</title>
+      <link>//localhost:1313/docs/configuration-management/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/configuration-management/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Storage</title>
+      <link>//localhost:1313/docs/storage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/storage/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Databases</title>
+      <link>//localhost:1313/docs/database/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/database/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Binary Artifacts</title>
+      <link>//localhost:1313/docs/binary-artifacts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/binary-artifacts/</guid>
+      <description>&lt;p&gt;All build packages is called as binary artifacts&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>GitOps</title>
+      <link>//localhost:1313/docs/gitops/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/gitops/</guid>
+      <description></description>
     </item>
     <item>
       <title>Vault</title>
       <link>//localhost:1313/docs/vault/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/docs/vault/</guid>
-      <description></description>
+      <description>&lt;p&gt;Why we need a vault? what problem does it solve&#xA;similar solutions&#xA;keypass&#xA;paid&#xA;installation method&lt;/p&gt;&#xA;&lt;p&gt;vault dedicated &amp;ndash;&amp;gt; hosted service by HCP&#xA;install vault CLI client and server or just client&lt;br&gt;&#xA;Access via UI, HTTP API, CLI&lt;/p&gt;&#xA;&lt;p&gt;vault - various pluggable components&lt;/p&gt;&#xA;&lt;p&gt;backup method&lt;/p&gt;&#xA;&lt;p&gt;HA method&lt;/p&gt;&#xA;&lt;p&gt;ngrok &amp;ndash;connect to database testing&lt;/p&gt;&#xA;&lt;p&gt;workload become ephermeral and short lived &amp;ndash; long-lived static creds makes security threat&lt;/p&gt;&#xA;&lt;p&gt;tokens, API keys, passwords, certificates&lt;/p&gt;</description>
     </item>
     <item>
-      <title>SonarQube</title>
-      <link>//localhost:1313/docs/sonarqube/</link>
+      <title>Monitoring and tracing</title>
+      <link>//localhost:1313/docs/monitoring-tracing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/sonarqube/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Grafana</title>
-      <link>//localhost:1313/docs/grafana/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/grafana/</guid>
+      <guid>//localhost:1313/docs/monitoring-tracing/</guid>
       <description></description>
     </item>
     <item>
       <title>MongoDB</title>
-      <link>//localhost:1313/docs/mongodb/</link>
+      <link>//localhost:1313/docs/database/mongodb/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/mongodb/</guid>
+      <guid>//localhost:1313/docs/database/mongodb/</guid>
       <description></description>
     </item>
     <item>
-      <title>Prometheus</title>
-      <link>//localhost:1313/docs/prometheus/</link>
+      <title>Argocd</title>
+      <link>//localhost:1313/docs/gitops/argocd/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/prometheus/</guid>
-      <description>Thanos for high scalable system </description>
+      <guid>//localhost:1313/docs/gitops/argocd/</guid>
+      <description>&lt;h1 id=&#34;enables-auto-deployment&#34;&gt;enables auto deployment&lt;/h1&gt;</description>
+    </item>
+    <item>
+      <title>dapr</title>
+      <link>//localhost:1313/docs/dapr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/dapr/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Jenkins</title>
+      <link>//localhost:1313/docs/continous-integration/jenkins/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/continous-integration/jenkins/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>

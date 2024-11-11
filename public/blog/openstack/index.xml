@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Openstack on Rakesh</title>
+    <link>//localhost:1313/blog/openstack/</link>
+    <description>Recent content in Openstack on Rakesh</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="//localhost:1313/blog/openstack/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>//localhost:1313/blog/1/01/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/blog/1/01/01/</guid>
+      <description>&lt;p&gt;Block storage is one to one map (instance-drive)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>//localhost:1313/blog/1/01/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/blog/1/01/01/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>//localhost:1313/blog/1/01/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/blog/1/01/01/</guid>
+      <description>&lt;p&gt;Get mac address&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;getmac /v&lt;/code&gt;&#xA;&lt;code&gt;route print&lt;/code&gt; or &lt;code&gt;get-netroute&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;layer-3 switch &amp;ndash;&amp;gt; has routing capability (Inter VLAN Routing)&lt;/p&gt;&#xA;&lt;p&gt;APIPA &amp;ndash;&amp;gt; will comes into picture when no DHCP is configured. IP address will be like 169.254.x.x&lt;/p&gt;&#xA;&lt;h1 id=&#34;dhcp&#34;&gt;DHCP&lt;/h1&gt;&#xA;&lt;p&gt;DHCP database &amp;ndash;&amp;gt; dhcp.mdb&#xA;Default lease duration is 8 days&lt;/p&gt;&#xA;&lt;p&gt;DHCP authorization &amp;ndash; exclusive for microsoft windows&#xA;only authorized DHCP servers can lease IPaddress&lt;/p&gt;&#xA;&lt;p&gt;DHCP address exclution&lt;/p&gt;&#xA;&lt;p&gt;DHCP secondary server: for second server add subnet delay (split scope)&#xA;DHCP failover&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>//localhost:1313/blog/1/01/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/blog/1/01/01/</guid>
+      <description>&lt;p&gt;If you want to start openstack nova, please don’t start with nova.&lt;/p&gt;&#xA;&lt;p&gt;Nova is just a wrapper for many packages like&lt;/p&gt;&#xA;&lt;p&gt;Openstack provides toolset for integration&#xA;- Provides drivers to integrate with hypervisors&#xA;- SSH key pair&#xA;- console - novnc, SPICE&lt;/p&gt;&#xA;&lt;p&gt;openstack nova (scheduler, i think )&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;filters&lt;/li&gt;&#xA;&lt;li&gt;weights&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;openstack conductor &amp;ndash;&amp;gt; updates database&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
