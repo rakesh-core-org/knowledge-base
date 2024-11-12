@@ -8,6 +8,20 @@
     <language>en</language>
     <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>AI</title>
+      <link>//localhost:1313/tags/ai/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Authenticate</title>
+      <link>//localhost:1313/tags/authenticate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/authenticate/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>CICD</title>
       <link>//localhost:1313/tags/cicd/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -19,6 +33,13 @@
       <link>//localhost:1313/tags/codequality/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/tags/codequality/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Coding</title>
+      <link>//localhost:1313/tags/coding/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/coding/</guid>
       <description></description>
     </item>
     <item>
@@ -43,6 +64,27 @@
       <description></description>
     </item>
     <item>
+      <title>Devops</title>
+      <link>//localhost:1313/tags/devops/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/devops/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Documentation</title>
+      <link>//localhost:1313/tags/documentation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/documentation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Infrastructure</title>
+      <link>//localhost:1313/tags/infrastructure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/infrastructure/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>LocalModel</title>
       <link>//localhost:1313/tags/localmodel/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -54,6 +96,20 @@
       <link>//localhost:1313/tags/monitoring/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/tags/monitoring/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nocloud</title>
+      <link>//localhost:1313/tags/nocloud/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/nocloud/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OperatingSystem</title>
+      <link>//localhost:1313/tags/operatingsystem/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/operatingsystem/</guid>
       <description></description>
     </item>
     <item>

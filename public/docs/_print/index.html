@@ -32,7 +32,7 @@ github dockerhub quay.io redhat version control 1 git github gitlab code-quality
   <meta itemprop="name" content="Rakesh Knowledge base">
   <meta itemprop="description" content="Keep it simple and make it simple To get started, its good to create accounts in below
 github dockerhub quay.io redhat version control 1 git github gitlab code-quality 2 sonarqube continous-integration 3 jenkins containerization 4 docker containerd podman lxc kata orchestration 5 kubernetes openshift configuration-management 6 ansible storage 7 ceph rook minio databases 8 postgresql mongodb binary-artifacts 9 nexus pypi DTR harbor gitops 10 argocd monitoring &amp; tracing 11 prometheus grafana loki opentelemetry cloud 12 openstack azure documentation 13 sphinx hugo development 14 editor-setup python django fastapi vuejs operating-systems 15 linux windows authentication 16 keycloak openldap sssd secret-management 17 vault AI 18 ollama langchain/langgraph dapr Reference links https://www.linuxfoundation.org/ https://www.cncf.io/ (A part of linux foundation)">
-  <meta itemprop="dateModified" content="2024-11-10T16:01:20+05:30">
+  <meta itemprop="dateModified" content="2024-11-11T19:21:09+05:30">
   <meta itemprop="wordCount" content="114">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Rakesh Knowledge base">
@@ -69,7 +69,7 @@ github dockerhub quay.io redhat version control 1 git github gitlab code-quality
         <a class="nav-link" href="/blog/"><span>Blog</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="https://github.com/RakeshNagarajanOrg/knowledge-base" target="_blank" rel="noopener"><span>GitHub</span></a>
+        <a class="nav-link" href="https://github.com/rakesh-core-org/knowledge-base" target="_blank" rel="noopener"><span>GitHub</span></a>
       </li>
       <li class="td-light-dark-menu nav-item dropdown">
         <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
@@ -181,7 +181,7 @@ This is the multi-page printable view of this section.
     
     
 	
-<li>1: <a href="#pg-842a837774fc543dc904c123befb1710">Version control</a></li>
+<li>1: <a href="#pg-1c2fa852baba26b3db6601152bd991c1">Version Control</a></li>
 
 
     
@@ -196,7 +196,7 @@ This is the multi-page printable view of this section.
     
     
 	
-<li>1.1: <a href="#pg-da7cb810d3dd0fedc174b1ab5e9f562f">Git</a></li>
+<li>1.1: <a href="#pg-15f2ae006bbd184dad157df31bc30f1b">Git</a></li>
 
 
     
@@ -211,7 +211,7 @@ This is the multi-page printable view of this section.
     
     
 	
-<li>1.1.1: <a href="#pg-9265df895985583fda3f518a8ef300a4"></a></li>
+<li>1.1.1: <a href="#pg-c9067e7dcc9a0cc94ad61fcf22a83894">Gitconfig</a></li>
 
 
     
@@ -223,7 +223,7 @@ This is the multi-page printable view of this section.
     
     
 	
-<li>1.2: <a href="#pg-88870c31265e4483538b8ff01e239f12">Github</a></li>
+<li>1.2: <a href="#pg-5682ee2596f834572f6397349c9e2152">Github</a></li>
 
 
     
@@ -550,7 +550,7 @@ This is the multi-page printable view of this section.
     
     
 	
-<li>6: <a href="#pg-3472895f7e64817cb2f15a3e7feb1abd">Configuration Managenent</a></li>
+<li>6: <a href="#pg-3472895f7e64817cb2f15a3e7feb1abd">Configuration Management</a></li>
 
 
     
@@ -772,7 +772,7 @@ This is the multi-page printable view of this section.
     
     
 	
-<li>11: <a href="#pg-dd21f7c7cfef291d8b86621da528c11a">Monitoring and tracing</a></li>
+<li>11: <a href="#pg-dd21f7c7cfef291d8b86621da528c11a">Monitoring and Tracing</a></li>
 
 
     
@@ -1329,7 +1329,7 @@ This is the multi-page printable view of this section.
     
     
 	
-<li>18: <a href="#pg-60e1839dbc90273ff4e9c32052cf2297">artificial intelligence</a></li>
+<li>18: <a href="#pg-60e1839dbc90273ff4e9c32052cf2297">Artificial Intelligence</a></li>
 
 
     
@@ -1494,9 +1494,21 @@ https://www.cncf.io/ (A part of linux foundation)</code></pre>
 
 <div class="td-content" style="page-break-before: always">
     
-	<h1 id="pg-842a837774fc543dc904c123befb1710">1 - Version control</h1>
+	<h1 id="pg-1c2fa852baba26b3db6601152bd991c1">1 - Version Control</h1>
     <div class="lead">Version control</div>
-	<p>Version control is the important step in any project</p>
+	<p>Version control is essential for managing code and projects. This is responsible for tracking changes and also to keep the code in remote repository.</p>
+<h2 id="types-of-version-control">Types of version control</h2>
+<ul>
+<li>Local version control</li>
+<li>Centralized version control (subversion)</li>
+<li>Distributed version control (Git)</li>
+</ul>
+<h2 id="basic-concepts-in-version-control">Basic Concepts in Version Control</h2>
+<p><code>Repository</code>: A project’s main directory containing all files and history.</p>
+<p><code>Commit</code>: A saved state of the repository at a specific point in time.</p>
+<p><code>Branch</code>: A separate line of development, allowing isolated changes without affecting the main codebase.</p>
+<p><code>Merge</code>: Combining changes from one branch into another.</p>
+<p><code>Pull/Push</code>: Pull to update your local code with remote changes, and push to upload your local changes.</p>
 
 </div>
 
@@ -1518,41 +1530,54 @@ https://www.cncf.io/ (A part of linux foundation)</code></pre>
 	
     
 
-<div class="td-content" style="">
+<div class="td-content" style="page-break-before: always">
     
-	<h1 id="pg-da7cb810d3dd0fedc174b1ab5e9f562f">1.1 - Git</h1>
+	<h1 id="pg-15f2ae006bbd184dad157df31bc30f1b">1.1 - Git</h1>
     <div class="lead">Git</div>
 	<h2 id="youtube-video-link">youtube video link</h2>
-<h2 id="github-codebase-link">github codebase link</h2>
-<p>Version control system
-why? &ndash;opensource&ndash;?
+<p><a href="https://github.com/rakesh-core-org/">Reference github organization</a></p>
+<p>Git is designed by linus Tovalds for managing linux kernel development.
+Platform independent, works with (linux,mac,windows)</p>
+<h3 id="popular-git-based-platforms">Popular Git-based platforms</h3>
+<ul>
+<li>github</li>
+<li>gittea</li>
+<li>gitlab</li>
+<li>bitbucket</li>
+<li>Azure devops (TFS)</li>
+</ul>
+<p>why? &ndash;opensource&ndash;?
 Local repository/remote repository
-Options in git
-github
-gittea
-gitlab
-bitbucket
-Azure devops (TFS)</p>
+Options in git</p>
+<h2 id="access-git">Access git</h2>
+<ul>
+<li>git cli</li>
+<li>git platforms</li>
+<li>git GUI</li>
+</ul>
+<h2 id="install-git-client">Install git client</h2>
+<p>Inorder to access git, we need to install git client in our local machine(where we are accessing git)
+By default all major distributions ships with git, better update the package</p>
 <h1 id="how-to-use-git-effectively-hidden-features-in-git">how to use git effectively, hidden features in git</h1>
 <p>origin</p>
 <p>opensouce/closed &ndash; private repo/
 license &ndash;?</p>
-<p>How to install git?</p>
-<p>git - cli</p>
 <p>Options in which we can create repo &ndash;&gt; local or in repote repo
 Platform independent</p>
 <h1 id="to-share-local-copy-without-giving-remote-repo-access">to share local copy, without giving remote repo access</h1>
-<p>git init &ndash;bare /path/to/repo.git</p>
+<h2 id="hidden-files-and-folders-usage">Hidden files and folders usage</h2>
 <p>.gitconfig
 .gitignore &ndash;&gt; auto create/ specific to your env
 .gitmodules &ndash;&gt;
 .gitattributes
-.gitkeep</p>
+.gitkeep
+.git</p>
 <p>git remote</p>
-<h1 id="git-basics">git basics</h1>
+<h2 id="git-basics">git basics</h2>
 <p>git &ndash;version</p>
-<p>initialize a git repository</p>
+<h2 id="initialize-a-git-repository">Initialize a git repository</h2>
 <p>git init</p>
+<p>git init &ndash;bare /path/to/repo.git</p>
 <p>this creates a .git directory &ndash;&gt; local to your env</p>
 <ul>
 <li>hooks</li>
@@ -1600,8 +1625,8 @@ git update-index --no-assume-unchanged filename.sh
 
 <div class="td-content" style="page-break-before: always">
     
-	<h1 id="pg-9265df895985583fda3f518a8ef300a4">1.1.1 - </h1>
-    
+	<h1 id="pg-c9067e7dcc9a0cc94ad61fcf22a83894">1.1.1 - Gitconfig</h1>
+    <div class="lead">Gitconfig</div>
 	<p>gitconfig can either configured globally or per repository</p>
 <p>to configure globally pass <code>--global</code> flag</p>
 <p><code>git config --global user.name &quot;Rakesh&quot;</code></p>
@@ -1624,7 +1649,7 @@ git update-index --no-assume-unchanged filename.sh
 
 <div class="td-content" style="page-break-before: always">
     
-	<h1 id="pg-88870c31265e4483538b8ff01e239f12">1.2 - Github</h1>
+	<h1 id="pg-5682ee2596f834572f6397349c9e2152">1.2 - Github</h1>
     <div class="lead">Github</div>
 	
 </div>
@@ -2250,7 +2275,7 @@ vim /etc/ssh/sshd_config</p>
 
 <div class="td-content" style="page-break-before: always">
     
-	<h1 id="pg-3472895f7e64817cb2f15a3e7feb1abd">6 - Configuration Managenent</h1>
+	<h1 id="pg-3472895f7e64817cb2f15a3e7feb1abd">6 - Configuration Management</h1>
     <div class="lead">configuration maanagement</div>
 	
 </div>
@@ -2668,7 +2693,7 @@ resize2fs /dev/sda1</p>
 
 <div class="td-content" style="page-break-before: always">
     
-	<h1 id="pg-dd21f7c7cfef291d8b86621da528c11a">11 - Monitoring and tracing</h1>
+	<h1 id="pg-dd21f7c7cfef291d8b86621da528c11a">11 - Monitoring and Tracing</h1>
     <div class="lead">Monitoring</div>
 	
 </div>
@@ -3156,6 +3181,28 @@ hugo v0.138.0-ad82998d54b3f9f8c2741b67356813b55b3134b9+extended linux/amd64 Buil
 	<h1 id="pg-af3b4744d68e6880e53fcd2257cb6dce">14.1.1 - Poetry</h1>
     <div class="lead">Package Manager</div>
 	<p>Python package manager and dependency management</p>
+<div class="container">
+    <div id="player-wrapper" class="my-5"></div>
+  </div>
+  
+  <script 
+    type="text/javascript" 
+    src="https://cdn.jsdelivr.net/npm/@clappr/player@latest/dist/clappr.min.js"
+  >
+  </script>
+  
+  <script>
+    var playerElement = document.getElementById("player-wrapper");
+  
+    var player = new Clappr.Player({
+      source: "http://clappr.io/highline.mp4",
+      mute: true,
+      height: 360,
+      width: 640
+    });
+  
+    player.attachTo(playerElement);  
+  </script>
 <p>minimum python version 3.8+
 poetry build ontop of pip</p>
 <p>Wraps</p>
@@ -3978,7 +4025,7 @@ mongodb</p>
 
 <div class="td-content" style="page-break-before: always">
     
-	<h1 id="pg-60e1839dbc90273ff4e9c32052cf2297">18 - artificial intelligence</h1>
+	<h1 id="pg-60e1839dbc90273ff4e9c32052cf2297">18 - Artificial Intelligence</h1>
     <div class="lead">artificial intelligence</div>
 	
 </div>
@@ -4121,7 +4168,7 @@ langchain/langgraph</p>
   </li>
   
   <li class="td-footer__links-item" data-bs-toggle="tooltip" title="GitHub" aria-label="GitHub">
-    <a target="_blank" rel="noopener" href="https://github.com/RakeshNagarajanOrg" aria-label="GitHub">
+    <a target="_blank" rel="noopener" href="https://github.com/rakesh-core-org" aria-label="GitHub">
       <i class="fab fa-github"></i>
     </a>
   </li>
@@ -4132,7 +4179,7 @@ langchain/langgraph</p>
         <ul class="td-footer__links-list">
   
   <li class="td-footer__links-item" data-bs-toggle="tooltip" title="Mail to Rakesh" aria-label="Mail to Rakesh">
-    <a target="_blank" rel="noopener" href="mailto:narakeshece12@gmail.com" aria-label="Mail to Rakesh">
+    <a target="_blank" rel="noopener" href="mailto:rakesh.core01@gmail.com" aria-label="Mail to Rakesh">
       <i class="fa fa-envelope"></i>
     </a>
   </li>

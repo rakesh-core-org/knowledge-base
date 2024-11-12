@@ -1,4 +1,4 @@
-module github.com/RakeshNagarajanOrg/knowledge-base
+module github.com/rakesh-core-org/knowledge-base
 
 go 1.21.4
 

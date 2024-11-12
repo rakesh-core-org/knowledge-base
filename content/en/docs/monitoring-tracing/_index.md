@@ -1,5 +1,5 @@
 ---
-title: "Monitoring and tracing"
+title: "Monitoring and Tracing"
 weight: 11
 description: >
   Monitoring

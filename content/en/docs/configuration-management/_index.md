@@ -1,5 +1,5 @@
 ---
-title: "Configuration Managenent"
+title: "Configuration Management"
 weight: 6
 description: >
   configuration maanagement

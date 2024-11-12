@@ -15,6 +15,13 @@
       <description></description>
     </item>
     <item>
+      <title>Gitconfig</title>
+      <link>//localhost:1313/docs/version-control/git/gitconfig/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/version-control/git/gitconfig/</guid>
+      <description>&lt;p&gt;gitconfig can either configured globally or per repository&lt;/p&gt;&#xA;&lt;p&gt;to configure globally pass &lt;code&gt;--global&lt;/code&gt; flag&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;git config --global user.name &amp;quot;Rakesh&amp;quot;&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Before contributing</title>
       <link>//localhost:1313/blog/2024/05/15/before-contributing/</link>
       <pubDate>Wed, 15 May 2024 00:00:00 +0000</pubDate>
@@ -188,13 +195,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/docs/storage/ceph/rook/</guid>
       <description>&lt;p&gt;Rook can also connect to external ceph cluster running outside kubernetes&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>//localhost:1313/docs/versioncontrol/git/gitconfig/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/versioncontrol/git/gitconfig/</guid>
-      <description>&lt;p&gt;gitconfig can either configured globally or per repository&lt;/p&gt;&#xA;&lt;p&gt;to configure globally pass &lt;code&gt;--global&lt;/code&gt; flag&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;git config --global user.name &amp;quot;Rakesh&amp;quot;&lt;/code&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

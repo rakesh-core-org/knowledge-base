@@ -8,6 +8,20 @@
     <language>en</language>
     <atom:link href="//localhost:1313/categories/operatingsystem/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Boot-process</title>
+      <link>//localhost:1313/docs/operating-systems/linux/boot-process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/operating-systems/linux/boot-process/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linux</title>
+      <link>//localhost:1313/docs/operating-systems/linux/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/operating-systems/linux/</guid>
+      <description>&lt;h2 id=&#34;unix-is-basically-a-simple-operating-system-but-you-have-to-be-a-genius-to-understand-the-simplicity&#34;&gt;UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity.&lt;/h2&gt;&#xA;&lt;h1 id=&#34;pre-requirements-for-this&#34;&gt;Pre-requirements for this&lt;/h1&gt;&#xA;&lt;pre&gt;&lt;code&gt;Any linux distribution(VM/Metal/Containers) &#xA;cloud, openstack &#xA;WSL &#xA;hyper-v &#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Note::&#xA;Don’t try installing software if you are running the live CD. Because writeable space on a live CD uses virtual memory&#xA;(RAM), that space is limited and can easily run out. Also, when you reboot your system, anything you install will be gone.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Windows</title>
       <link>//localhost:1313/docs/operating-systems/windows/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

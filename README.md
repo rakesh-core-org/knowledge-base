@@ -10,4 +10,4 @@ All information mentioned in this repository is based on my real time experience
 
 ## Credits
 
-[Rakesh Nagarajan](https://rakeshnagarajanorg.github.io/)
+[Rakesh Nagarajan](https://rakesh-core-org.github.io/)

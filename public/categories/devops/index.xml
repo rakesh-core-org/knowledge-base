@@ -43,11 +43,39 @@
       <description></description>
     </item>
     <item>
+      <title>Git</title>
+      <link>//localhost:1313/docs/version-control/git/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/version-control/git/</guid>
+      <description>&lt;h2 id=&#34;youtube-video-link&#34;&gt;youtube video link&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/rakesh-core-org/&#34;&gt;Reference github organization&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Git is designed by linus Tovalds for managing linux kernel development.&#xA;Platform independent, works with (linux,mac,windows)&lt;/p&gt;&#xA;&lt;h3 id=&#34;popular-git-based-platforms&#34;&gt;Popular Git-based platforms&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;github&lt;/li&gt;&#xA;&lt;li&gt;gittea&lt;/li&gt;&#xA;&lt;li&gt;gitlab&lt;/li&gt;&#xA;&lt;li&gt;bitbucket&lt;/li&gt;&#xA;&lt;li&gt;Azure devops (TFS)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;why? &amp;ndash;opensource&amp;ndash;?&#xA;Local repository/remote repository&#xA;Options in git&lt;/p&gt;&#xA;&lt;h2 id=&#34;access-git&#34;&gt;Access git&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;git cli&lt;/li&gt;&#xA;&lt;li&gt;git platforms&lt;/li&gt;&#xA;&lt;li&gt;git GUI&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;install-git-client&#34;&gt;Install git client&lt;/h2&gt;&#xA;&lt;p&gt;Inorder to access git, we need to install git client in our local machine(where we are accessing git)&#xA;By default all major distributions ships with git, better update the package&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Gitconfig</title>
+      <link>//localhost:1313/docs/version-control/git/gitconfig/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/version-control/git/gitconfig/</guid>
+      <description>&lt;p&gt;gitconfig can either configured globally or per repository&lt;/p&gt;&#xA;&lt;p&gt;to configure globally pass &lt;code&gt;--global&lt;/code&gt; flag&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;git config --global user.name &amp;quot;Rakesh&amp;quot;&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hugo</title>
+      <link>//localhost:1313/docs/documentation/hugo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/documentation/hugo/</guid>
+      <description>&lt;p&gt;For installing hugo&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/gohugoio/hugo/releases/tag/v0.138.0&#34;&gt;https://github.com/gohugoio/hugo/releases/tag/v0.138.0&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;rakesh@rakesh-ws:/tmp$ wget &lt;a href=&#34;https://github.com/gohugoio/hugo/releases/download/v0.138.0/hugo_extended_0.138.0_linux-amd64.deb&#34;&gt;https://github.com/gohugoio/hugo/releases/download/v0.138.0/hugo_extended_0.138.0_linux-amd64.deb&lt;/a&gt;&#xA;rakesh@rakesh-ws:/tmp$ sudo dpkg -i hugo_extended_0.138.0_linux-amd64.deb&lt;/p&gt;&#xA;&lt;p&gt;rakesh@rakesh-ws:/tmp$ hugo version&#xA;hugo v0.138.0-ad82998d54b3f9f8c2741b67356813b55b3134b9+extended linux/amd64 BuildDate=2024-11-06T11:22:34Z VendorInfo=gohugoio&lt;/p&gt;&#xA;&lt;p&gt;rakesh@rakesh-ws:/data/knowledge-base$ hugo serve&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Podman</title>
       <link>//localhost:1313/docs/containerization/podman/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/docs/containerization/podman/</guid>
       <description>&lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;&#xA;&#xA;&#xA;    Documentation of podman is not good as of v5.2.3&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;Podman is supported majorly by redhat&#xA;better to create an account in quay.io for image registry&lt;/p&gt;&#xA;&lt;h1 id=&#34;open-container-initiative&#34;&gt;Open container Initiative&lt;/h1&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://opencontainers.org/&#34;&gt;https://opencontainers.org/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Container runtimes - runc, crun, runv&lt;/p&gt;&#xA;&lt;p&gt;containers can run either as root or non-root&lt;/p&gt;&#xA;&lt;h1 id=&#34;container-image-registry---quayio&#34;&gt;container image registry - quay.io&lt;/h1&gt;</description>
+    </item>
+    <item>
+      <title>Poetry</title>
+      <link>//localhost:1313/docs/development/python/poetry/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/development/python/poetry/</guid>
+      <description>&lt;p&gt;Python package manager and dependency management&lt;/p&gt;&#xA;&lt;div class=&#34;container&#34;&gt;&#xA;    &lt;div id=&#34;player-wrapper&#34; class=&#34;my-5&#34;&gt;&lt;/div&gt;&#xA;  &lt;/div&gt;&#xA;  &#xA;  &lt;script &#xA;    type=&#34;text/javascript&#34; &#xA;    src=&#34;https://cdn.jsdelivr.net/npm/@clappr/player@latest/dist/clappr.min.js&#34;&#xA;  &gt;&#xA;  &lt;/script&gt;&#xA;  &#xA;  &lt;script&gt;&#xA;    var playerElement = document.getElementById(&#34;player-wrapper&#34;);&#xA;  &#xA;    var player = new Clappr.Player({&#xA;      source: &#34;http://clappr.io/highline.mp4&#34;,&#xA;      mute: true,&#xA;      height: 360,&#xA;      width: 640&#xA;    });&#xA;  &#xA;    player.attachTo(playerElement);  &#xA;  &lt;/script&gt;&#xA;&lt;p&gt;minimum python version 3.8+&#xA;poetry build ontop of pip&lt;/p&gt;&#xA;&lt;p&gt;Wraps&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;virtual environment (venv)&lt;/li&gt;&#xA;&lt;li&gt;pip&lt;/li&gt;&#xA;&lt;li&gt;wheel&lt;/li&gt;&#xA;&lt;li&gt;setuptools &amp;ndash;&amp;gt;setup.py&lt;/li&gt;&#xA;&lt;li&gt;twine&lt;/li&gt;&#xA;&lt;li&gt;versioning &amp;ndash;&amp;gt;init__.py&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;plus-points&#34;&gt;Plus points&lt;/h1&gt;&#xA;&lt;p&gt;metadata available in tool.poetry&#xA;dependency can be declared in groups&#xA;sources can be configured in one single place&#xA;packaging and build process&#xA;publish&lt;/p&gt;</description>
     </item>
     <item>
       <title>Prometheus</title>
@@ -57,11 +85,25 @@
       <description>&lt;h1 id=&#34;thanos-for-high-scalable-system&#34;&gt;Thanos for high scalable system&lt;/h1&gt;</description>
     </item>
     <item>
-      <title>Version control</title>
-      <link>//localhost:1313/docs/versioncontrol/</link>
+      <title>Python</title>
+      <link>//localhost:1313/docs/development/python/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/versioncontrol/</guid>
-      <description>&lt;p&gt;Version control is the important step in any project&lt;/p&gt;</description>
+      <guid>//localhost:1313/docs/development/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sphinx</title>
+      <link>//localhost:1313/docs/documentation/sphinx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/documentation/sphinx/</guid>
+      <description>&lt;p&gt;Sphinx docs for python&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Version Control</title>
+      <link>//localhost:1313/docs/version-control/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/version-control/</guid>
+      <description>&lt;p&gt;Version control is essential for managing code and projects. This is responsible for tracking changes and also to keep the code in remote repository.&lt;/p&gt;&#xA;&lt;h2 id=&#34;types-of-version-control&#34;&gt;Types of version control&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Local version control&lt;/li&gt;&#xA;&lt;li&gt;Centralized version control (subversion)&lt;/li&gt;&#xA;&lt;li&gt;Distributed version control (Git)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;basic-concepts-in-version-control&#34;&gt;Basic Concepts in Version Control&lt;/h2&gt;&#xA;&lt;p&gt;&lt;code&gt;Repository&lt;/code&gt;: A project’s main directory containing all files and history.&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;Commit&lt;/code&gt;: A saved state of the repository at a specific point in time.&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;Branch&lt;/code&gt;: A separate line of development, allowing isolated changes without affecting the main codebase.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Code Quality</title>
@@ -71,17 +113,10 @@
       <description></description>
     </item>
     <item>
-      <title>Git</title>
-      <link>//localhost:1313/docs/versioncontrol/git/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/versioncontrol/git/</guid>
-      <description>&lt;h2 id=&#34;youtube-video-link&#34;&gt;youtube video link&lt;/h2&gt;&#xA;&lt;h2 id=&#34;github-codebase-link&#34;&gt;github codebase link&lt;/h2&gt;&#xA;&lt;p&gt;Version control system&#xA;why? &amp;ndash;opensource&amp;ndash;?&#xA;Local repository/remote repository&#xA;Options in git&#xA;github&#xA;gittea&#xA;gitlab&#xA;bitbucket&#xA;Azure devops (TFS)&lt;/p&gt;&#xA;&lt;h1 id=&#34;how-to-use-git-effectively-hidden-features-in-git&#34;&gt;how to use git effectively, hidden features in git&lt;/h1&gt;&#xA;&lt;p&gt;origin&lt;/p&gt;&#xA;&lt;p&gt;opensouce/closed &amp;ndash; private repo/&#xA;license &amp;ndash;?&lt;/p&gt;&#xA;&lt;p&gt;How to install git?&lt;/p&gt;&#xA;&lt;p&gt;git - cli&lt;/p&gt;&#xA;&lt;p&gt;Options in which we can create repo &amp;ndash;&amp;gt; local or in repote repo&#xA;Platform independent&lt;/p&gt;&#xA;&lt;h1 id=&#34;to-share-local-copy-without-giving-remote-repo-access&#34;&gt;to share local copy, without giving remote repo access&lt;/h1&gt;&#xA;&lt;p&gt;git init &amp;ndash;bare /path/to/repo.git&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Github</title>
-      <link>//localhost:1313/docs/versioncontrol/github/</link>
+      <link>//localhost:1313/docs/version-control/github/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/versioncontrol/github/</guid>
+      <guid>//localhost:1313/docs/version-control/github/</guid>
       <description></description>
     </item>
     <item>
@@ -141,7 +176,7 @@
       <description>&lt;h1 id=&#34;ceph-storage-cluster&#34;&gt;Ceph storage cluster&lt;/h1&gt;&#xA;&lt;p&gt;Once ceph storage cluster is deployed we can configure below&#xA;ceph is based on RADOS - Reliable Autonomic Distributed Object Store. which handles storage, distribution and replication of data accross cluster&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;    uses CRUSH algorithm - how and where the data is stored&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h2 id=&#34;configurations&#34;&gt;configurations&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;OSD - &amp;gt; each OSD is backed by  a single storage device&lt;/li&gt;&#xA;&lt;li&gt;monitor -&amp;gt; cluster membership, authentication,&lt;/li&gt;&#xA;&lt;li&gt;manager -&amp;gt; provides interface to external monitoring and management system&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;OSD backend - Bluestore&#xA;Metadata management with RocksDB(key/value database)&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Configuration Managenent</title>
+      <title>Configuration Management</title>
       <link>//localhost:1313/docs/configuration-management/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/docs/configuration-management/</guid>
@@ -177,16 +212,30 @@
     </item>
     <item>
       <title>Vault</title>
-      <link>//localhost:1313/docs/vault/</link>
+      <link>//localhost:1313/docs/secret-management/vault/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/vault/</guid>
+      <guid>//localhost:1313/docs/secret-management/vault/</guid>
       <description>&lt;p&gt;Why we need a vault? what problem does it solve&#xA;similar solutions&#xA;keypass&#xA;paid&#xA;installation method&lt;/p&gt;&#xA;&lt;p&gt;vault dedicated &amp;ndash;&amp;gt; hosted service by HCP&#xA;install vault CLI client and server or just client&lt;br&gt;&#xA;Access via UI, HTTP API, CLI&lt;/p&gt;&#xA;&lt;p&gt;vault - various pluggable components&lt;/p&gt;&#xA;&lt;p&gt;backup method&lt;/p&gt;&#xA;&lt;p&gt;HA method&lt;/p&gt;&#xA;&lt;p&gt;ngrok &amp;ndash;connect to database testing&lt;/p&gt;&#xA;&lt;p&gt;workload become ephermeral and short lived &amp;ndash; long-lived static creds makes security threat&lt;/p&gt;&#xA;&lt;p&gt;tokens, API keys, passwords, certificates&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Monitoring and tracing</title>
+      <title>Monitoring and Tracing</title>
       <link>//localhost:1313/docs/monitoring-tracing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/docs/monitoring-tracing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Documentation</title>
+      <link>//localhost:1313/docs/documentation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/documentation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Development</title>
+      <link>//localhost:1313/docs/development/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/development/</guid>
       <description></description>
     </item>
     <item>
@@ -194,6 +243,27 @@
       <link>//localhost:1313/docs/database/mongodb/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/docs/database/mongodb/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Operating system</title>
+      <link>//localhost:1313/docs/operating-systems/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/operating-systems/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Authentication</title>
+      <link>//localhost:1313/docs/authentication/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/authentication/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Secret Management</title>
+      <link>//localhost:1313/docs/secret-management/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/secret-management/</guid>
       <description></description>
     </item>
     <item>

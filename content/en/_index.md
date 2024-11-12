@@ -45,12 +45,12 @@ Technology keeps evolving, our primary focus is to adapt and go with the flow.
 
 {{% blocks/section color="dark" type="row" %}}
 {{% blocks/feature icon="fa-lightbulb" title="wanna know more" %}}
-<a href="https://rakeshnagarajanorg.github.io/" target="blank">See my online version</a>
+<a href="https://rakesh-core-org.github.io/" target="blank">See my online version</a>
 {{% /blocks/feature %}}
 
 
 {{% blocks/feature icon="fab fa-github" title="Open Source" %}}
-Join with me in <a href="https://github.com/RakeshNagarajanOrg" target="blank" > Github</a>
+Join with me in <a href="https://github.com/rakesh-core-org" target="blank" > Github</a>
 {{% /blocks/feature %}}
 
 

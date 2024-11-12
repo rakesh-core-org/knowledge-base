@@ -8,6 +8,20 @@
     <language>en</language>
     <atom:link href="//localhost:1313/tags/coding/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Poetry</title>
+      <link>//localhost:1313/docs/development/python/poetry/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/development/python/poetry/</guid>
+      <description>&lt;p&gt;Python package manager and dependency management&lt;/p&gt;&#xA;&lt;div class=&#34;container&#34;&gt;&#xA;    &lt;div id=&#34;player-wrapper&#34; class=&#34;my-5&#34;&gt;&lt;/div&gt;&#xA;  &lt;/div&gt;&#xA;  &#xA;  &lt;script &#xA;    type=&#34;text/javascript&#34; &#xA;    src=&#34;https://cdn.jsdelivr.net/npm/@clappr/player@latest/dist/clappr.min.js&#34;&#xA;  &gt;&#xA;  &lt;/script&gt;&#xA;  &#xA;  &lt;script&gt;&#xA;    var playerElement = document.getElementById(&#34;player-wrapper&#34;);&#xA;  &#xA;    var player = new Clappr.Player({&#xA;      source: &#34;http://clappr.io/highline.mp4&#34;,&#xA;      mute: true,&#xA;      height: 360,&#xA;      width: 640&#xA;    });&#xA;  &#xA;    player.attachTo(playerElement);  &#xA;  &lt;/script&gt;&#xA;&lt;p&gt;minimum python version 3.8+&#xA;poetry build ontop of pip&lt;/p&gt;&#xA;&lt;p&gt;Wraps&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;virtual environment (venv)&lt;/li&gt;&#xA;&lt;li&gt;pip&lt;/li&gt;&#xA;&lt;li&gt;wheel&lt;/li&gt;&#xA;&lt;li&gt;setuptools &amp;ndash;&amp;gt;setup.py&lt;/li&gt;&#xA;&lt;li&gt;twine&lt;/li&gt;&#xA;&lt;li&gt;versioning &amp;ndash;&amp;gt;init__.py&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;plus-points&#34;&gt;Plus points&lt;/h1&gt;&#xA;&lt;p&gt;metadata available in tool.poetry&#xA;dependency can be declared in groups&#xA;sources can be configured in one single place&#xA;packaging and build process&#xA;publish&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>//localhost:1313/docs/development/python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/development/python/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Development</title>
       <link>//localhost:1313/docs/development/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

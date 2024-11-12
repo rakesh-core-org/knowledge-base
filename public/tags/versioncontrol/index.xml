@@ -8,24 +8,31 @@
     <language>en</language>
     <atom:link href="//localhost:1313/tags/versioncontrol/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Version control</title>
-      <link>//localhost:1313/docs/versioncontrol/</link>
+      <title>Git</title>
+      <link>//localhost:1313/docs/version-control/git/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/versioncontrol/</guid>
-      <description>&lt;p&gt;Version control is the important step in any project&lt;/p&gt;</description>
+      <guid>//localhost:1313/docs/version-control/git/</guid>
+      <description>&lt;h2 id=&#34;youtube-video-link&#34;&gt;youtube video link&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/rakesh-core-org/&#34;&gt;Reference github organization&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Git is designed by linus Tovalds for managing linux kernel development.&#xA;Platform independent, works with (linux,mac,windows)&lt;/p&gt;&#xA;&lt;h3 id=&#34;popular-git-based-platforms&#34;&gt;Popular Git-based platforms&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;github&lt;/li&gt;&#xA;&lt;li&gt;gittea&lt;/li&gt;&#xA;&lt;li&gt;gitlab&lt;/li&gt;&#xA;&lt;li&gt;bitbucket&lt;/li&gt;&#xA;&lt;li&gt;Azure devops (TFS)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;why? &amp;ndash;opensource&amp;ndash;?&#xA;Local repository/remote repository&#xA;Options in git&lt;/p&gt;&#xA;&lt;h2 id=&#34;access-git&#34;&gt;Access git&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;git cli&lt;/li&gt;&#xA;&lt;li&gt;git platforms&lt;/li&gt;&#xA;&lt;li&gt;git GUI&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;install-git-client&#34;&gt;Install git client&lt;/h2&gt;&#xA;&lt;p&gt;Inorder to access git, we need to install git client in our local machine(where we are accessing git)&#xA;By default all major distributions ships with git, better update the package&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Git</title>
-      <link>//localhost:1313/docs/versioncontrol/git/</link>
+      <title>Gitconfig</title>
+      <link>//localhost:1313/docs/version-control/git/gitconfig/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/versioncontrol/git/</guid>
-      <description>&lt;h2 id=&#34;youtube-video-link&#34;&gt;youtube video link&lt;/h2&gt;&#xA;&lt;h2 id=&#34;github-codebase-link&#34;&gt;github codebase link&lt;/h2&gt;&#xA;&lt;p&gt;Version control system&#xA;why? &amp;ndash;opensource&amp;ndash;?&#xA;Local repository/remote repository&#xA;Options in git&#xA;github&#xA;gittea&#xA;gitlab&#xA;bitbucket&#xA;Azure devops (TFS)&lt;/p&gt;&#xA;&lt;h1 id=&#34;how-to-use-git-effectively-hidden-features-in-git&#34;&gt;how to use git effectively, hidden features in git&lt;/h1&gt;&#xA;&lt;p&gt;origin&lt;/p&gt;&#xA;&lt;p&gt;opensouce/closed &amp;ndash; private repo/&#xA;license &amp;ndash;?&lt;/p&gt;&#xA;&lt;p&gt;How to install git?&lt;/p&gt;&#xA;&lt;p&gt;git - cli&lt;/p&gt;&#xA;&lt;p&gt;Options in which we can create repo &amp;ndash;&amp;gt; local or in repote repo&#xA;Platform independent&lt;/p&gt;&#xA;&lt;h1 id=&#34;to-share-local-copy-without-giving-remote-repo-access&#34;&gt;to share local copy, without giving remote repo access&lt;/h1&gt;&#xA;&lt;p&gt;git init &amp;ndash;bare /path/to/repo.git&lt;/p&gt;</description>
+      <guid>//localhost:1313/docs/version-control/git/gitconfig/</guid>
+      <description>&lt;p&gt;gitconfig can either configured globally or per repository&lt;/p&gt;&#xA;&lt;p&gt;to configure globally pass &lt;code&gt;--global&lt;/code&gt; flag&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;git config --global user.name &amp;quot;Rakesh&amp;quot;&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Version Control</title>
+      <link>//localhost:1313/docs/version-control/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/version-control/</guid>
+      <description>&lt;p&gt;Version control is essential for managing code and projects. This is responsible for tracking changes and also to keep the code in remote repository.&lt;/p&gt;&#xA;&lt;h2 id=&#34;types-of-version-control&#34;&gt;Types of version control&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Local version control&lt;/li&gt;&#xA;&lt;li&gt;Centralized version control (subversion)&lt;/li&gt;&#xA;&lt;li&gt;Distributed version control (Git)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;basic-concepts-in-version-control&#34;&gt;Basic Concepts in Version Control&lt;/h2&gt;&#xA;&lt;p&gt;&lt;code&gt;Repository&lt;/code&gt;: A project’s main directory containing all files and history.&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;Commit&lt;/code&gt;: A saved state of the repository at a specific point in time.&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;Branch&lt;/code&gt;: A separate line of development, allowing isolated changes without affecting the main codebase.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Github</title>
-      <link>//localhost:1313/docs/versioncontrol/github/</link>
+      <link>//localhost:1313/docs/version-control/github/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/versioncontrol/github/</guid>
+      <guid>//localhost:1313/docs/version-control/github/</guid>
       <description></description>
     </item>
   </channel>

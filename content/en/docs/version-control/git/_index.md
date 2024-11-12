@@ -1,6 +1,6 @@
 ---
 title: "Git"
-weight: 2.1
+weight: 1
 description: >
   Git
 categories: [devops]
@@ -8,17 +8,33 @@ tags: [VersionControl, CICD]
 ---
 
 ## youtube video link 
-## github codebase link 
+[Reference github organization](https://github.com/rakesh-core-org/)
 
-Version control system
+
+Git is designed by linus Tovalds for managing linux kernel development.
+Platform independent, works with (linux,mac,windows)
+
+### Popular Git-based platforms
+  - github
+  - gittea
+  - gitlab
+  - bitbucket
+  - Azure devops (TFS)
+
+
 why? --opensource--? 
 Local repository/remote repository 
 Options in git 
-  github
-  gittea
-  gitlab
-  bitbucket
-  Azure devops (TFS)
+
+## Access git
+  - git cli
+  - git platforms
+  - git GUI
+
+## Install git client
+
+Inorder to access git, we need to install git client in our local machine(where we are accessing git)
+By default all major distributions ships with git, better update the package
 
 # how to use git effectively, hidden features in git
 origin
@@ -26,34 +42,33 @@ origin
 opensouce/closed -- private repo/
 license --?
 
-How to install git?
-
-git - cli
-
 Options in which we can create repo --> local or in repote repo
 Platform independent
 
 # to share local copy, without giving remote repo access 
-git init --bare /path/to/repo.git 
 
 
+
+## Hidden files and folders usage
 .gitconfig 
 .gitignore --> auto create/ specific to your env 
 .gitmodules -->
 .gitattributes
 .gitkeep
-
+.git
 
 git remote 
 
-# git basics
+## git basics
 
 git --version 
 
 
-initialize a git repository 
+## Initialize a git repository 
 
 git init 
+
+git init --bare /path/to/repo.git 
 
 this creates a .git directory --> local to your env
 - hooks 

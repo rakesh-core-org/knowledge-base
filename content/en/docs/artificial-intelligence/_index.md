@@ -1,5 +1,5 @@
 ---
-title: "artificial intelligence"
+title: "Artificial Intelligence"
 weight: 18
 description: >
   artificial intelligence
