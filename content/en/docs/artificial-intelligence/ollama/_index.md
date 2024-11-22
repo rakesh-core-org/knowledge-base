@@ -11,7 +11,13 @@ Prerequirement
 - GPU -- good news/bad news - it works/it works badly
 https://ollama.com/blog/amd-preview
 
-docker run -d -p 3001:8080 -e OLLAMA_BASE_URL=http://<REMOTE_SERVER_IP>:11434/  --name open-webui --restart always ghcr.io/open-webui/open-webui:main
+docker run -d -p 3000:8080 -e OLLAMA_BASE_URL=http://localhost:11434/ --network=host -e WEBUI_AUTH=False --name open-webui --restart always --gpus all ghcr.io/open-webui/open-webui:main
+
+
+sudo docker run -d --device /dev/dri  --network=host -e OLLAMA_BASE_URL=http://localhost:11434/ -e WEBUI_AUTH=False --name open-webui --restart always ghcr.io/open-webui/open-webui:main
+
+-e OLLAMA_BASE_URL=http://192.168.0.104:11434/ 
+-p 3000:8080
 
 ollama -- lLM runner 
 

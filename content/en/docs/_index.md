@@ -1,90 +1,38 @@
 ---
 title: Rakesh Knowledge base
-linkTitle: Docs
+linkTitle: Documentation
 menu: {main: {weight: 1}}
 weight: 1
+
+
 ---
 
 {{< alert color="success" >}}Keep it simple and make it simple{{< /alert >}}
 
-To get started, its good to create accounts in below 
 
-    github
-    dockerhub
-    quay.io
-    redhat
+To get started, its better to create accounts with below options as per your need
 
-    version control 1
-        git
-        github
-        gitlab
-    code-quality 2 
-        sonarqube
-    continous-integration 3 
-        jenkins
-    containerization 4 
-        docker
-        containerd
-        podman
-        lxc
-        kata
-    orchestration 5 
-        kubernetes
-        openshift
-    configuration-management 6 
-        ansible
-    storage 7 
-        ceph
-        rook
-        minio
-    databases 8 
-        postgresql
-        mongodb
-    binary-artifacts 9
-        nexus
-        pypi
-        DTR
-        harbor 
-    gitops 10
-        argocd 
-    monitoring & tracing 11
-        prometheus
-        grafana
-        loki
-        opentelemetry 
-    cloud 12
-        openstack
-        azure
-    documentation 13
-        sphinx 
-        hugo 
-    development 14
-        editor-setup
-        python
-            django
-            fastapi
-        vuejs
+- [github](https://github.com/)
+- [gitlab](https://gitlab.com/users/sign_in)
+- [dockerhub](https://hub.docker.com/)
+- [quay](https://quay.io/)
+- [redhat](https://access.redhat.com/)
+- [huggingface](https://huggingface.co/)
+- [pypi](https://pypi.org/)
+- [grafana](https://grafana.com/auth/sign-in)
+- [streamlit](https://share.streamlit.io/)
+- [chatgpt](https://chatgpt.com/)
+- [azure devops](https://azure.microsoft.com/en-us/products/devops/)
+- [foreman support](https://community.theforeman.org/c/support/10)
+- stackoverflow
+- linkedin learning 
 
-    operating-systems 15
-        linux
-        windows
-    authentication 16
-        keycloak
-        openldap
-        sssd
-    secret-management 17
-        vault
 
-    AI 18
-        ollama
-        langchain/langgraph
-    
-    dapr
-    
+signup with below newsletters
+- docker 
 
-    
 
-# Reference links
+I am a huge fan of [CNCF](https://www.cncf.io/) which is a part of [linux foundation](https://www.linuxfoundation.org/). So most of the projects which i will be using were all opensource mainly from LinuxFoundation and [openinfra foundation](https://openinfra.dev/)
 
-    https://www.linuxfoundation.org/
-    https://www.cncf.io/ (A part of linux foundation)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yVdTLa85GcA?si=sPI4btDgcBLujBwf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

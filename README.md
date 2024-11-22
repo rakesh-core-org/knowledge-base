@@ -1,6 +1,6 @@
 # Rakesh Technology Stack 
 
-> This repository is built using Hugo docs
+> This repository is built using Hugo docs specifically docsy theme
 
 
 ## Disclaimer

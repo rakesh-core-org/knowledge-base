@@ -1,0 +1,18 @@
+<div id="asciinema-player-{{ .Get "id" }}" class="asciinema-player" data-src="{{ .Get "src" }}" data-preload="1" data-theme="monokai" style="width: 100%; height: 400px;"></div>
+
+<script>
+  function initializeAsciinema() {
+    if (typeof AsciinemaPlayer !== "undefined") {
+      AsciinemaPlayer.create("{{ .Get "src" }}", document.getElementById("asciinema-player-{{ .Get "id" }}"), {
+        autoplay: true,
+        loop: false,
+        theme: "{{ .Get "theme" }}",
+        fit: "width",
+      });
+    } else {
+      console.log("AsciinemaPlayer not ready; retrying...");
+      setTimeout(initializeAsciinema, 200); // Retry after 200ms
+    }
+  }
+  initializeAsciinema();
+</script>

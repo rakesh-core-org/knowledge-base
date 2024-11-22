@@ -7,6 +7,8 @@ categories: [devops]
 tags: [Storage]
 ---
 
+
+
 # Ceph storage cluster
 
 Once ceph storage cluster is deployed we can configure below 
@@ -39,3 +41,45 @@ managers - state of ceph cluster, storage utilization,performance metrics , dash
         - not heavy cpu usage
 OSD - store data, replication, (atleast 3 osd required)
 MSD - cpu intensive 
+
+
+## installation
+
+
+--skip-monitoring-stack
+https://docs.ceph.com/en/squid/cephadm/services/monitoring/#disabling-monitoring
+
+Ceph Dashboard is now available at:
+
+	     URL: https://ceph-01:8443/
+	    User: admin
+	Password: admin@123
+
+Enabling client.admin keyring and conf on hosts with "admin" label
+Saving cluster configuration to /var/lib/ceph/a435810c-a656-11ef-be9c-555e7832e56b/config directory
+Enabling autotune for osd_memory_target
+You can access the Ceph CLI as following in case of multi-cluster or non-default config:
+
+	sudo /usr/sbin/cephadm shell --fsid a435810c-a656-11ef-be9c-555e7832e56b -c /etc/ceph/ceph.conf -k /etc/ceph/ceph.client.admin.keyring
+
+Or, if you are only running a single cluster on this host:
+
+	sudo /usr/sbin/cephadm shell 
+
+Please consider enabling telemetry to help improve Ceph:
+
+	ceph telemetry on
+
+For more information see:
+
+	https://docs.ceph.com/en/latest/mgr/telemetry/
+
+Bootstrap complete.
+
+
+## For extending new ceph host 
+
+ceph cephadm get-pub-key
+
+Get the public key and put it in the authorized_keys of root user
+

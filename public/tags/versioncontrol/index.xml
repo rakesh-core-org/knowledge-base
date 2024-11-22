@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>VersionControl on Rakesh</title>
+    <title>VersionControl on Rakesh Core</title>
     <link>//localhost:1313/tags/versioncontrol/</link>
-    <description>Recent content in VersionControl on Rakesh</description>
+    <description>Recent content in VersionControl on Rakesh Core</description>
     <generator>Hugo</generator>
     <language>en</language>
     <atom:link href="//localhost:1313/tags/versioncontrol/index.xml" rel="self" type="application/rss+xml" />
@@ -12,14 +12,14 @@
       <link>//localhost:1313/docs/version-control/git/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/docs/version-control/git/</guid>
-      <description>&lt;h2 id=&#34;youtube-video-link&#34;&gt;youtube video link&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/rakesh-core-org/&#34;&gt;Reference github organization&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Git is designed by linus Tovalds for managing linux kernel development.&#xA;Platform independent, works with (linux,mac,windows)&lt;/p&gt;&#xA;&lt;h3 id=&#34;popular-git-based-platforms&#34;&gt;Popular Git-based platforms&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;github&lt;/li&gt;&#xA;&lt;li&gt;gittea&lt;/li&gt;&#xA;&lt;li&gt;gitlab&lt;/li&gt;&#xA;&lt;li&gt;bitbucket&lt;/li&gt;&#xA;&lt;li&gt;Azure devops (TFS)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;why? &amp;ndash;opensource&amp;ndash;?&#xA;Local repository/remote repository&#xA;Options in git&lt;/p&gt;&#xA;&lt;h2 id=&#34;access-git&#34;&gt;Access git&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;git cli&lt;/li&gt;&#xA;&lt;li&gt;git platforms&lt;/li&gt;&#xA;&lt;li&gt;git GUI&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;install-git-client&#34;&gt;Install git client&lt;/h2&gt;&#xA;&lt;p&gt;Inorder to access git, we need to install git client in our local machine(where we are accessing git)&#xA;By default all major distributions ships with git, better update the package&lt;/p&gt;</description>
+      <description>&lt;p&gt;Git is designed by linus Tovalds for managing linux kernel development.&#xA;Platform independent, works with (linux,mac,windows)&lt;/p&gt;&#xA;&lt;h3 id=&#34;popular-git-based-platforms&#34;&gt;Popular Git-based platforms&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;github&lt;/li&gt;&#xA;&lt;li&gt;gittea&lt;/li&gt;&#xA;&lt;li&gt;gitlab&lt;/li&gt;&#xA;&lt;li&gt;bitbucket&lt;/li&gt;&#xA;&lt;li&gt;Azure devops (TFS)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/rakesh-core-org/&#34;&gt;Reference github organization&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;why? &amp;ndash;opensource&amp;ndash;?&#xA;Local repository/remote repository&#xA;Options in git&lt;/p&gt;&#xA;&lt;h3 id=&#34;access-git&#34;&gt;Access git&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;git cli&lt;/li&gt;&#xA;&lt;li&gt;git platforms&lt;/li&gt;&#xA;&lt;li&gt;git GUI&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;install-git-client&#34;&gt;Install git client&lt;/h3&gt;&#xA;&lt;p&gt;Inorder to access git, we need to install git client in our local machine(where we are accessing git)&#xA;By default all major distributions ships with git, better update the package&lt;/p&gt;</description>
     </item>
     <item>
       <title>Gitconfig</title>
       <link>//localhost:1313/docs/version-control/git/gitconfig/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/docs/version-control/git/gitconfig/</guid>
-      <description>&lt;p&gt;gitconfig can either configured globally or per repository&lt;/p&gt;&#xA;&lt;p&gt;to configure globally pass &lt;code&gt;--global&lt;/code&gt; flag&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;git config --global user.name &amp;quot;Rakesh&amp;quot;&lt;/code&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;gitconfig can either configured globally or per repository&lt;/p&gt;&#xA;&lt;p&gt;to configure globally pass &lt;code&gt;--global&lt;/code&gt; flag&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git config --global user.name &amp;#34;Rakesh Nagarajan&amp;#34;&#xA;&#xA;git config --global user.email rakesh.core01@gmail.com&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;You can also edit in the file&lt;/p&gt;&#xA;&lt;p&gt;~/.gitconfig or  ~/.config/git/config&lt;/p&gt;&#xA;&lt;p&gt;In these files contains sections, edit the respective sections&lt;/p&gt;&#xA;&lt;p&gt;Reference&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration&#34;&gt;https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://git-scm.com/docs/git-config&#34;&gt;https://git-scm.com/docs/git-config&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Version Control</title>

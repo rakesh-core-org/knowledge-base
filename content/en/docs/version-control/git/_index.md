@@ -7,8 +7,7 @@ categories: [devops]
 tags: [VersionControl, CICD]
 ---
 
-## youtube video link 
-[Reference github organization](https://github.com/rakesh-core-org/)
+
 
 
 Git is designed by linus Tovalds for managing linux kernel development.
@@ -21,22 +20,23 @@ Platform independent, works with (linux,mac,windows)
   - bitbucket
   - Azure devops (TFS)
 
+[Reference github organization](https://github.com/rakesh-core-org/)
 
 why? --opensource--? 
 Local repository/remote repository 
 Options in git 
 
-## Access git
+### Access git
   - git cli
   - git platforms
   - git GUI
 
-## Install git client
+### Install git client
 
 Inorder to access git, we need to install git client in our local machine(where we are accessing git)
 By default all major distributions ships with git, better update the package
 
-# how to use git effectively, hidden features in git
+### how to use git effectively, hidden features in git
 origin
 
 opensouce/closed -- private repo/
@@ -45,11 +45,11 @@ license --?
 Options in which we can create repo --> local or in repote repo
 Platform independent
 
-# to share local copy, without giving remote repo access 
+### to share local copy, without giving remote repo access 
 
 
 
-## Hidden files and folders usage
+### Hidden files and folders usage
 .gitconfig 
 .gitignore --> auto create/ specific to your env 
 .gitmodules -->
@@ -59,12 +59,12 @@ Platform independent
 
 git remote 
 
-## git basics
+### git basics
 
 git --version 
 
 
-## Initialize a git repository 
+### Initialize a git repository 
 
 git init 
 

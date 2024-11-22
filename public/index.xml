@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>AboutMe on Rakesh</title>
+    <title>AboutMe on Rakesh Core</title>
     <link>//localhost:1313/</link>
-    <description>Recent content in AboutMe on Rakesh</description>
+    <description>Recent content in AboutMe on Rakesh Core</description>
     <generator>Hugo</generator>
     <language>en</language>
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
@@ -19,7 +19,35 @@
       <link>//localhost:1313/docs/version-control/git/gitconfig/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/docs/version-control/git/gitconfig/</guid>
-      <description>&lt;p&gt;gitconfig can either configured globally or per repository&lt;/p&gt;&#xA;&lt;p&gt;to configure globally pass &lt;code&gt;--global&lt;/code&gt; flag&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;git config --global user.name &amp;quot;Rakesh&amp;quot;&lt;/code&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;gitconfig can either configured globally or per repository&lt;/p&gt;&#xA;&lt;p&gt;to configure globally pass &lt;code&gt;--global&lt;/code&gt; flag&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git config --global user.name &amp;#34;Rakesh Nagarajan&amp;#34;&#xA;&#xA;git config --global user.email rakesh.core01@gmail.com&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;You can also edit in the file&lt;/p&gt;&#xA;&lt;p&gt;~/.gitconfig or  ~/.config/git/config&lt;/p&gt;&#xA;&lt;p&gt;In these files contains sections, edit the respective sections&lt;/p&gt;&#xA;&lt;p&gt;Reference&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration&#34;&gt;https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://git-scm.com/docs/git-config&#34;&gt;https://git-scm.com/docs/git-config&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Openstack</title>
+      <link>//localhost:1313/docs/cloud/openstack/nova/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/cloud/openstack/nova/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://docs.openstack.org/nova/latest/user/index.html&#34;&gt;https://docs.openstack.org/nova/latest/user/index.html&lt;/a&gt;  &amp;ndash; does not include virtualization software&lt;/p&gt;&#xA;&lt;p&gt;virtualization - kvm&#xA;cloud-init/kickstart&lt;/p&gt;&#xA;&lt;h3 id=&#34;services-in-nova&#34;&gt;services in nova&lt;/h3&gt;&#xA;&lt;p&gt;nova-api&#xA;nova-api-metadata&#xA;nova-api-os-compute&#xA;nova-compute&#xA;nova-conductor&#xA;nova-scheduler&lt;/p&gt;&#xA;&lt;h2 id=&#34;useful-for-accessing-the-instance-remotely&#34;&gt;useful for accessing the instance remotely&lt;/h2&gt;&#xA;&lt;p&gt;nova-novncproxy&#xA;nova-spicehtml5proxy&#xA;nova-serialproxy&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Openstack Ansible OSA</title>
+      <link>//localhost:1313/docs/cloud/openstack/openstack-ansible/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/cloud/openstack/openstack-ansible/</guid>
+      <description>&lt;h3 id=&#34;possible-deployment-options&#34;&gt;Possible deployment options&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.openstack.org/software/project-navigator/deployment-tools&#34;&gt;https://www.openstack.org/software/project-navigator/deployment-tools&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;other-vendow-supported-deployments&#34;&gt;Other vendow supported deployments&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/vexxhost/atmosphere&#34;&gt;https://github.com/vexxhost/atmosphere&lt;/a&gt;&#xA;&lt;a href=&#34;https://docs.redhat.com/en/documentation/red_hat_openstack_services_on_openshift/18.0&#34;&gt;https://docs.redhat.com/en/documentation/red_hat_openstack_services_on_openshift/18.0&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;You can directly deploy in the host or deploy in container LXC(makesure you have enough knowledge before using it. orelse you are unwantedly adding another layer of complexity)&lt;/p&gt;&#xA;&lt;h3 id=&#34;pre-requirements&#34;&gt;Pre-requirements&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Go for it, if you have knowledge in Ansible&lt;/li&gt;&#xA;&lt;li&gt;Ansible controller node&lt;/li&gt;&#xA;&lt;li&gt;installation method cannot changed in future&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;virtual-environment&#34;&gt;virtual environment&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;for each project python virtual environment is created&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;document-links-naming-format&#34;&gt;Document links naming format&lt;/h3&gt;&#xA;&lt;p&gt;Openstack-ansible-landing      &lt;a href=&#34;https://docs.openstack.org/openstack-ansible/latest/&#34;&gt;https://docs.openstack.org/openstack-ansible/latest/&lt;/a&gt;&#xA;For a specific version         &lt;a href=&#34;https://docs.openstack.org/openstack-ansible/zed/&#34;&gt;https://docs.openstack.org/openstack-ansible/zed/&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Openstack Disk image builder</title>
+      <link>//localhost:1313/docs/cloud/openstack/disk-image-builder/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/cloud/openstack/disk-image-builder/</guid>
+      <description>&lt;p&gt;Let&amp;rsquo;s customize certain steps in image itself and save instance deployment time.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://docs.openstack.org/diskimage-builder/latest/&#34;&gt;https://docs.openstack.org/diskimage-builder/latest/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/openstack/diskimage-builder/&#34;&gt;https://github.com/openstack/diskimage-builder/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;pre-requirements&#34;&gt;Pre-requirements&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Shell scripting&lt;/li&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;limitations&#34;&gt;Limitations&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Does not work in windows&lt;/li&gt;&#xA;&lt;li&gt;Confusing elements&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;elements-which-used-only-within-other-elements&#34;&gt;elements which used only within other elements&lt;/h3&gt;&#xA;&lt;p&gt;install-bin&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tutorial</title>
+      <link>//localhost:1313/blog/2024/11/10/tutorial/</link>
+      <pubDate>Sun, 10 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/blog/2024/11/10/tutorial/</guid>
+      <description>&lt;p&gt;To record terminal &lt;a href=&#34;https://asciinema.org/&#34;&gt;https://asciinema.org/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;div id=&#34;asciinema-player-1&#34; class=&#34;asciinema-player&#34; data-src=&#34;//localhost:1313/data/knowledge-base/static/casts/demo.cast&#34; data-preload=&#34;1&#34; data-theme=&#34;monokai&#34; style=&#34;width: 100%; height: 400px;&#34;&gt;&lt;/div&gt;&#xA;&#xA;&lt;script&gt;&#xA;  function initializeAsciinema() {&#xA;    if (typeof AsciinemaPlayer !== &#34;undefined&#34;) {&#xA;      AsciinemaPlayer.create(&#34;\/data\/knowledge-base\/static\/casts\/demo.cast&#34;, document.getElementById(&#34;asciinema-player-1&#34;), {&#xA;        autoplay: true,&#xA;        loop: false,&#xA;        theme: &#34;monokai&#34;,&#xA;        fit: &#34;width&#34;,&#xA;      });&#xA;    } else {&#xA;      console.log(&#34;AsciinemaPlayer not ready; retrying...&#34;);&#xA;      setTimeout(initializeAsciinema, 200); &#xA;    }&#xA;  }&#xA;  initializeAsciinema();&#xA;&lt;/script&gt;</description>
     </item>
     <item>
       <title>Before contributing</title>
@@ -72,10 +100,38 @@
     </item>
     <item>
       <title></title>
-      <link>//localhost:1313/docs/cloud/openstack/nova/</link>
+      <link>//localhost:1313/docs/cloud/openstack/barbican/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/cloud/openstack/nova/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://docs.openstack.org/nova/latest/user/index.html&#34;&gt;https://docs.openstack.org/nova/latest/user/index.html&lt;/a&gt;  &amp;ndash; does not include virtualization software&lt;/p&gt;&#xA;&lt;p&gt;virtualization - kvm&#xA;cloud-init/kickstart&lt;/p&gt;</description>
+      <guid>//localhost:1313/docs/cloud/openstack/barbican/</guid>
+      <description>&lt;p&gt;barbican-api&#xA;barbican-worker&#xA;barbican-keystoner-listener&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>//localhost:1313/docs/cloud/openstack/cinder/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/cloud/openstack/cinder/</guid>
+      <description>&lt;p&gt;cinder-api&#xA;cinder-scheduler&#xA;cinder-volume&#xA;cinder-manage&#xA;cinder-backup&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>//localhost:1313/docs/cloud/openstack/installation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/cloud/openstack/installation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>//localhost:1313/docs/cloud/openstack/keystone/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/cloud/openstack/keystone/</guid>
+      <description>&lt;p&gt;Manages below&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;domains&lt;/li&gt;&#xA;&lt;li&gt;projects&lt;/li&gt;&#xA;&lt;li&gt;users&lt;/li&gt;&#xA;&lt;li&gt;roles&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>//localhost:1313/docs/cloud/openstack/placement/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/cloud/openstack/placement/</guid>
+      <description></description>
     </item>
     <item>
       <title></title>

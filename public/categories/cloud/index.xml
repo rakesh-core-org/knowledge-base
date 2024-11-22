@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cloud on Rakesh</title>
+    <title>Cloud on Rakesh Core</title>
     <link>//localhost:1313/categories/cloud/</link>
-    <description>Recent content in Cloud on Rakesh</description>
+    <description>Recent content in Cloud on Rakesh Core</description>
     <generator>Hugo</generator>
     <language>en</language>
     <atom:link href="//localhost:1313/categories/cloud/index.xml" rel="self" type="application/rss+xml" />
@@ -12,7 +12,28 @@
       <link>//localhost:1313/docs/cloud/openstack/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/docs/cloud/openstack/</guid>
-      <description>&lt;h2 id=&#34;setup&#34;&gt;Setup&lt;/h2&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;lxc launch ubuntu:noble --vm openstack-ctl-01 -c limits.cpu=8 -c limits.memory=16GiB&#xA;&#xA;lxc launch ubuntu:noble --vm openstack-data-01 -c limits.cpu=8 -c limits.memory=16GiB&#xA;&#xA;lxc launch ubuntu:noble --vm openstack-hypervisor-01 -c limits.cpu=8 -c limits.memory=16GiB&#xA;&#xA;lxc launch ubuntu:noble --vm openstack-mgnt-01 -c limits.cpu=8 -c limits.memory=16GiB&#xA;&#xA;lxc launch ubuntu:noble --vm openstack-deployment -c limits.cpu=8 -c limits.memory=16GiB&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+      <description>&lt;p&gt;Each project will have its own database&#xA;3 API layer&#xA;its own backend system&#xA;one or more services running&lt;/p&gt;&#xA;&lt;h2 id=&#34;setup&#34;&gt;Setup&lt;/h2&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;lxc launch ubuntu:noble --vm openstack-ctl-01 -c limits.cpu=8 -c limits.memory=16GiB&#xA;&#xA;lxc launch ubuntu:noble --vm openstack-data-01 -c limits.cpu=8 -c limits.memory=16GiB&#xA;&#xA;lxc launch ubuntu:noble --vm openstack-hypervisor-01 -c limits.cpu=8 -c limits.memory=16GiB&#xA;&#xA;lxc launch ubuntu:noble --vm openstack-mgnt-01 -c limits.cpu=8 -c limits.memory=16GiB&#xA;&#xA;lxc launch ubuntu:noble --vm openstack-deployment -c limits.cpu=8 -c limits.memory=16GiB&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    <item>
+      <title>Openstack</title>
+      <link>//localhost:1313/docs/cloud/openstack/nova/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/cloud/openstack/nova/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://docs.openstack.org/nova/latest/user/index.html&#34;&gt;https://docs.openstack.org/nova/latest/user/index.html&lt;/a&gt;  &amp;ndash; does not include virtualization software&lt;/p&gt;&#xA;&lt;p&gt;virtualization - kvm&#xA;cloud-init/kickstart&lt;/p&gt;&#xA;&lt;h3 id=&#34;services-in-nova&#34;&gt;services in nova&lt;/h3&gt;&#xA;&lt;p&gt;nova-api&#xA;nova-api-metadata&#xA;nova-api-os-compute&#xA;nova-compute&#xA;nova-conductor&#xA;nova-scheduler&lt;/p&gt;&#xA;&lt;h2 id=&#34;useful-for-accessing-the-instance-remotely&#34;&gt;useful for accessing the instance remotely&lt;/h2&gt;&#xA;&lt;p&gt;nova-novncproxy&#xA;nova-spicehtml5proxy&#xA;nova-serialproxy&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Openstack Ansible OSA</title>
+      <link>//localhost:1313/docs/cloud/openstack/openstack-ansible/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/cloud/openstack/openstack-ansible/</guid>
+      <description>&lt;h3 id=&#34;possible-deployment-options&#34;&gt;Possible deployment options&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.openstack.org/software/project-navigator/deployment-tools&#34;&gt;https://www.openstack.org/software/project-navigator/deployment-tools&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;other-vendow-supported-deployments&#34;&gt;Other vendow supported deployments&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/vexxhost/atmosphere&#34;&gt;https://github.com/vexxhost/atmosphere&lt;/a&gt;&#xA;&lt;a href=&#34;https://docs.redhat.com/en/documentation/red_hat_openstack_services_on_openshift/18.0&#34;&gt;https://docs.redhat.com/en/documentation/red_hat_openstack_services_on_openshift/18.0&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;You can directly deploy in the host or deploy in container LXC(makesure you have enough knowledge before using it. orelse you are unwantedly adding another layer of complexity)&lt;/p&gt;&#xA;&lt;h3 id=&#34;pre-requirements&#34;&gt;Pre-requirements&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Go for it, if you have knowledge in Ansible&lt;/li&gt;&#xA;&lt;li&gt;Ansible controller node&lt;/li&gt;&#xA;&lt;li&gt;installation method cannot changed in future&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;virtual-environment&#34;&gt;virtual environment&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;for each project python virtual environment is created&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;document-links-naming-format&#34;&gt;Document links naming format&lt;/h3&gt;&#xA;&lt;p&gt;Openstack-ansible-landing      &lt;a href=&#34;https://docs.openstack.org/openstack-ansible/latest/&#34;&gt;https://docs.openstack.org/openstack-ansible/latest/&lt;/a&gt;&#xA;For a specific version         &lt;a href=&#34;https://docs.openstack.org/openstack-ansible/zed/&#34;&gt;https://docs.openstack.org/openstack-ansible/zed/&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Openstack Disk image builder</title>
+      <link>//localhost:1313/docs/cloud/openstack/disk-image-builder/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/cloud/openstack/disk-image-builder/</guid>
+      <description>&lt;p&gt;Let&amp;rsquo;s customize certain steps in image itself and save instance deployment time.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://docs.openstack.org/diskimage-builder/latest/&#34;&gt;https://docs.openstack.org/diskimage-builder/latest/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/openstack/diskimage-builder/&#34;&gt;https://github.com/openstack/diskimage-builder/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;pre-requirements&#34;&gt;Pre-requirements&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Shell scripting&lt;/li&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;limitations&#34;&gt;Limitations&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Does not work in windows&lt;/li&gt;&#xA;&lt;li&gt;Confusing elements&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;elements-which-used-only-within-other-elements&#34;&gt;elements which used only within other elements&lt;/h3&gt;&#xA;&lt;p&gt;install-bin&lt;/p&gt;</description>
     </item>
     <item>
       <title>Azure</title>

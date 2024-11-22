@@ -8,6 +8,12 @@ tags: [PrivateCloud]
 ---
 
 
+
+Each project will have its own database 
+3 API layer 
+its own backend system 
+one or more services running 
+
 ## Setup 
 
 ```

@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>General on Rakesh</title>
+    <title>General on Rakesh Core</title>
     <link>//localhost:1313/blog/general/</link>
-    <description>Recent content in General on Rakesh</description>
+    <description>Recent content in General on Rakesh Core</description>
     <generator>Hugo</generator>
     <language>en</language>
     <atom:link href="//localhost:1313/blog/general/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tutorial</title>
+      <link>//localhost:1313/blog/2024/11/10/tutorial/</link>
+      <pubDate>Sun, 10 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/blog/2024/11/10/tutorial/</guid>
+      <description>&lt;p&gt;To record terminal &lt;a href=&#34;https://asciinema.org/&#34;&gt;https://asciinema.org/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;div id=&#34;asciinema-player-1&#34; class=&#34;asciinema-player&#34; data-src=&#34;//localhost:1313/data/knowledge-base/static/casts/demo.cast&#34; data-preload=&#34;1&#34; data-theme=&#34;monokai&#34; style=&#34;width: 100%; height: 400px;&#34;&gt;&lt;/div&gt;&#xA;&#xA;&lt;script&gt;&#xA;  function initializeAsciinema() {&#xA;    if (typeof AsciinemaPlayer !== &#34;undefined&#34;) {&#xA;      AsciinemaPlayer.create(&#34;\/data\/knowledge-base\/static\/casts\/demo.cast&#34;, document.getElementById(&#34;asciinema-player-1&#34;), {&#xA;        autoplay: true,&#xA;        loop: false,&#xA;        theme: &#34;monokai&#34;,&#xA;        fit: &#34;width&#34;,&#xA;      });&#xA;    } else {&#xA;      console.log(&#34;AsciinemaPlayer not ready; retrying...&#34;);&#xA;      setTimeout(initializeAsciinema, 200); &#xA;    }&#xA;  }&#xA;  initializeAsciinema();&#xA;&lt;/script&gt;</description>
+    </item>
     <item>
       <title>Before contributing</title>
       <link>//localhost:1313/blog/2024/05/15/before-contributing/</link>

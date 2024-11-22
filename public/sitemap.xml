@@ -27,8 +27,10 @@
     <lastmod>2024-11-10T16:01:20+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/docs/version-control/git/</loc>
+    <lastmod>2024-11-12T09:46:58+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/docs/version-control/git/gitconfig/</loc>
+    <lastmod>2024-11-12T09:46:58+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/docs/orchestration/kubernetes/helm/</loc>
     <lastmod>2024-11-11T19:21:09+05:30</lastmod>
@@ -48,11 +50,18 @@
     <loc>//localhost:1313/docs/cloud/openstack/</loc>
     <lastmod>2024-11-11T19:21:09+05:30</lastmod>
   </url><url>
+    <loc>//localhost:1313/docs/cloud/openstack/nova/</loc>
+    <lastmod>2024-11-11T19:21:09+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/docs/cloud/openstack/openstack-ansible/</loc>
+  </url><url>
+    <loc>//localhost:1313/docs/cloud/openstack/disk-image-builder/</loc>
+  </url><url>
     <loc>//localhost:1313/docs/containerization/podman/</loc>
     <lastmod>2024-11-10T16:01:20+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/docs/development/python/poetry/</loc>
-    <lastmod>2024-11-11T19:21:09+05:30</lastmod>
+    <lastmod>2024-11-12T09:46:58+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/docs/monitoring-tracing/prometheus/</loc>
     <lastmod>2024-11-11T19:21:09+05:30</lastmod>
@@ -64,6 +73,7 @@
     <lastmod>2024-11-11T19:21:09+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/docs/version-control/</loc>
+    <lastmod>2024-11-12T09:46:58+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/docs/code-quality/</loc>
     <lastmod>2024-11-11T19:21:09+05:30</lastmod>
@@ -72,6 +82,7 @@
     <lastmod>2024-11-11T19:21:09+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/docs/version-control/github/</loc>
+    <lastmod>2024-11-12T09:46:58+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/docs/monitoring-tracing/grafana/</loc>
     <lastmod>2024-11-11T19:21:09+05:30</lastmod>
@@ -122,7 +133,7 @@
     <lastmod>2024-11-11T19:21:09+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/docs/configuration-management/</loc>
-    <lastmod>2024-11-11T19:21:09+05:30</lastmod>
+    <lastmod>2024-11-12T09:46:58+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/docs/storage/</loc>
     <lastmod>2024-11-11T19:21:09+05:30</lastmod>
@@ -140,7 +151,7 @@
     <lastmod>2024-11-11T19:21:09+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/docs/monitoring-tracing/</loc>
-    <lastmod>2024-11-11T19:21:09+05:30</lastmod>
+    <lastmod>2024-11-12T09:46:58+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/docs/cloud/</loc>
     <lastmod>2024-11-11T19:21:09+05:30</lastmod>
@@ -164,10 +175,13 @@
     <lastmod>2024-11-11T19:21:09+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/docs/artificial-intelligence/</loc>
-    <lastmod>2024-11-11T19:21:09+05:30</lastmod>
+    <lastmod>2024-11-12T09:46:58+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/blog/</loc>
     <lastmod>2024-11-10T16:01:20+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/blog/2024/11/10/tutorial/</loc>
+    <lastmod>2024-11-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/blog/2024/05/15/before-contributing/</loc>
     <lastmod>2024-11-10T16:01:20+05:30</lastmod>
@@ -193,8 +207,15 @@
     <loc>//localhost:1313/blog/1/01/01/</loc>
     <lastmod>2024-11-10T16:01:20+05:30</lastmod>
   </url><url>
-    <loc>//localhost:1313/docs/cloud/openstack/nova/</loc>
-    <lastmod>2024-11-11T19:21:09+05:30</lastmod>
+    <loc>//localhost:1313/docs/cloud/openstack/barbican/</loc>
+  </url><url>
+    <loc>//localhost:1313/docs/cloud/openstack/cinder/</loc>
+  </url><url>
+    <loc>//localhost:1313/docs/cloud/openstack/installation/</loc>
+  </url><url>
+    <loc>//localhost:1313/docs/cloud/openstack/keystone/</loc>
+  </url><url>
+    <loc>//localhost:1313/docs/cloud/openstack/placement/</loc>
   </url><url>
     <loc>//localhost:1313/docs/operating-systems/linux/boot/</loc>
     <lastmod>2024-11-11T19:21:09+05:30</lastmod>
@@ -248,25 +269,25 @@
     <lastmod>2024-11-11T19:21:09+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/</loc>
-    <lastmod>2024-11-10T16:01:20+05:30</lastmod>
+    <lastmod>2024-11-12T09:46:58+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/ai/</loc>
-    <lastmod>2024-11-11T19:21:09+05:30</lastmod>
+    <lastmod>2024-11-12T09:46:58+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/docs/gitops/argocd/</loc>
     <lastmod>2024-11-11T19:21:09+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/categories/artificialintelligence/</loc>
-    <lastmod>2024-11-11T19:21:09+05:30</lastmod>
+    <lastmod>2024-11-12T09:46:58+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/authenticate/</loc>
     <lastmod>2024-11-11T19:21:09+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/categories/</loc>
-    <lastmod>2024-11-11T19:21:09+05:30</lastmod>
+    <lastmod>2024-11-12T09:46:58+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/cicd/</loc>
-    <lastmod>2024-11-11T19:21:09+05:30</lastmod>
+    <lastmod>2024-11-12T09:46:58+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/categories/cloud/</loc>
     <lastmod>2024-11-11T19:21:09+05:30</lastmod>
@@ -275,10 +296,10 @@
     <lastmod>2024-11-11T19:21:09+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/coding/</loc>
-    <lastmod>2024-11-11T19:21:09+05:30</lastmod>
+    <lastmod>2024-11-12T09:46:58+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/configurationmanagement/</loc>
-    <lastmod>2024-11-11T19:21:09+05:30</lastmod>
+    <lastmod>2024-11-12T09:46:58+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/containerization/</loc>
     <lastmod>2024-11-11T19:21:09+05:30</lastmod>
@@ -293,7 +314,7 @@
     <lastmod>2024-11-11T19:21:09+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/categories/devops/</loc>
-    <lastmod>2024-11-11T19:21:09+05:30</lastmod>
+    <lastmod>2024-11-12T09:46:58+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/documentation/</loc>
     <lastmod>2024-11-11T19:21:09+05:30</lastmod>
@@ -311,7 +332,7 @@
     <lastmod>2024-11-11T19:21:09+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/monitoring/</loc>
-    <lastmod>2024-11-11T19:21:09+05:30</lastmod>
+    <lastmod>2024-11-12T09:46:58+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/nocloud/</loc>
     <lastmod>2024-11-11T19:21:09+05:30</lastmod>
@@ -341,8 +362,9 @@
     <lastmod>2024-11-11T19:21:09+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/</loc>
-    <lastmod>2024-11-11T19:21:09+05:30</lastmod>
+    <lastmod>2024-11-12T09:46:58+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/versioncontrol/</loc>
+    <lastmod>2024-11-12T09:46:58+05:30</lastmod>
   </url>
 </urlset>

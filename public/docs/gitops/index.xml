@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>GitOps on Rakesh</title>
+    <title>GitOps on Rakesh Core</title>
     <link>//localhost:1313/docs/gitops/</link>
-    <description>Recent content in GitOps on Rakesh</description>
+    <description>Recent content in GitOps on Rakesh Core</description>
     <generator>Hugo</generator>
     <language>en</language>
     <atom:link href="//localhost:1313/docs/gitops/index.xml" rel="self" type="application/rss+xml" />

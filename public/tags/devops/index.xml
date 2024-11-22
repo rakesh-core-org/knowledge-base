@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Devops on Rakesh</title>
+    <title>Devops on Rakesh Core</title>
     <link>//localhost:1313/tags/devops/</link>
-    <description>Recent content in Devops on Rakesh</description>
+    <description>Recent content in Devops on Rakesh Core</description>
     <generator>Hugo</generator>
     <language>en</language>
     <atom:link href="//localhost:1313/tags/devops/index.xml" rel="self" type="application/rss+xml" />
@@ -19,7 +19,7 @@
       <link>//localhost:1313/docs/operating-systems/linux/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/docs/operating-systems/linux/</guid>
-      <description>&lt;h2 id=&#34;unix-is-basically-a-simple-operating-system-but-you-have-to-be-a-genius-to-understand-the-simplicity&#34;&gt;UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity.&lt;/h2&gt;&#xA;&lt;h1 id=&#34;pre-requirements-for-this&#34;&gt;Pre-requirements for this&lt;/h1&gt;&#xA;&lt;pre&gt;&lt;code&gt;Any linux distribution(VM/Metal/Containers) &#xA;cloud, openstack &#xA;WSL &#xA;hyper-v &#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Note::&#xA;Don’t try installing software if you are running the live CD. Because writeable space on a live CD uses virtual memory&#xA;(RAM), that space is limited and can easily run out. Also, when you reboot your system, anything you install will be gone.&lt;/p&gt;</description>
+      <description>&lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;&#xA;&#xA;&#xA;    &lt;p&gt;UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity.&lt;/p&gt;&#xA;&lt;p&gt;&amp;ndash; Dennis Ritchie&lt;/p&gt;&#xA;&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;h3 id=&#34;pre-requirements&#34;&gt;Pre-requirements&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Any linux distribution (ubuntu/redhat/or any)&lt;/li&gt;&#xA;&lt;li&gt;VM/Metal/Containers&lt;/li&gt;&#xA;&lt;li&gt;Spin up instance in any cloud (openstack/ or any)&lt;/li&gt;&#xA;&lt;li&gt;WSL &lt;a href=&#34;https://learn.microsoft.com/en-us/windows/wsl/about&#34;&gt;windows subsystem for linux&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;&#xA;&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;&#xA;&#xA;&#xA;    Don’t try installing software if you are running the live CD. Because writeable space on a live CD uses virtual memory&#xA;(RAM), that space is limited and can easily run out. Also, when you reboot your system, anything you install will be gone.&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;h1 id=&#34;beginners&#34;&gt;Beginners&lt;/h1&gt;&#xA;&lt;h2 id=&#34;introduction-to-linux&#34;&gt;Introduction to linux&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;linux - opensource&lt;/li&gt;&#xA;&lt;li&gt;Kernel is in the middle layer between Hardware and Shell&lt;/li&gt;&#xA;&lt;li&gt;kernel - who is managing&lt;/li&gt;&#xA;&lt;li&gt;BDS license - mac&lt;/li&gt;&#xA;&lt;li&gt;difference from windows&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/QCAC4e6PxAc?si=LZNUsl9ClvAyiY27&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;&#xA;&lt;h3 id=&#34;where-linux-used&#34;&gt;Where linux used&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Network switches&lt;/li&gt;&#xA;&lt;li&gt;Datacenter servers&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;useful-tools&#34;&gt;Useful tools&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;putty&lt;/li&gt;&#xA;&lt;li&gt;mremoteng&lt;/li&gt;&#xA;&lt;li&gt;winscp&lt;/li&gt;&#xA;&lt;li&gt;X11/Wayland&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;popular-distros&#34;&gt;popular distros&lt;/h2&gt;&#xA;&lt;p&gt;transition from windows/mac to linux&#xA;release frequency&#xA;LTS kernel&lt;/p&gt;</description>
     </item>
     <item>
       <title>Windows</title>

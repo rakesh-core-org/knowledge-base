@@ -2,41 +2,53 @@
 title: "Linux"
 weight: 1
 description: >
-  Learn linux
+  Don't just learn linux, better to practice it
 categories: [operatingsystem]
 tags: [Devops]
 ---
-## UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity.
 
+{{< alert color="success" >}}
+UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity.
 
-# Pre-requirements for this 
-    Any linux distribution(VM/Metal/Containers) 
-    cloud, openstack 
-    WSL 
-    hyper-v 
+  -- Dennis Ritchie
+{{< /alert >}}
 
-Note:: 
+### Pre-requirements
+- Any linux distribution (ubuntu/redhat/or any)
+- VM/Metal/Containers
+- Spin up instance in any cloud (openstack/ or any)
+- WSL [windows subsystem for linux](https://learn.microsoft.com/en-us/windows/wsl/about)
+
+{{< alert color="warning" >}}
 Don’t try installing software if you are running the live CD. Because writeable space on a live CD uses virtual memory
 (RAM), that space is limited and can easily run out. Also, when you reboot your system, anything you install will be gone.
+{{< /alert >}}
 
 # Beginners 
 
 ## Introduction to linux 
-linux - opensource 
-Kernel is in the middle layer between Hardware and Shell 
-kernel - who is managing 
-BDS license - mac 
-difference from windows 
+1. linux - opensource 
+1. Kernel is in the middle layer between Hardware and Shell 
+1. kernel - who is managing 
+1. BDS license - mac 
+1. difference from windows 
 
-## Where used:
-    Network switches,
-    Datacenter servers 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QCAC4e6PxAc?si=LZNUsl9ClvAyiY27" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-## Useful tools:
-    putty
-    mremoteng
-    winscp
-    X11/Wayland
+
+### Where linux used
+- Network switches
+- Datacenter servers 
+
+
+
+
+
+### Useful tools
+- putty
+- mremoteng
+- winscp
+- X11/Wayland
 
 ## popular distros 
 transition from windows/mac to linux 

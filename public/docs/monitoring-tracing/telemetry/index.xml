@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Telemetry on Rakesh</title>
+    <title>Telemetry on Rakesh Core</title>
     <link>//localhost:1313/docs/monitoring-tracing/telemetry/</link>
-    <description>Recent content in Telemetry on Rakesh</description>
+    <description>Recent content in Telemetry on Rakesh Core</description>
     <generator>Hugo</generator>
     <language>en</language>
     <atom:link href="//localhost:1313/docs/monitoring-tracing/telemetry/index.xml" rel="self" type="application/rss+xml" />

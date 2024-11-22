@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Git on Rakesh</title>
+    <title>Git on Rakesh Core</title>
     <link>//localhost:1313/docs/version-control/git/</link>
-    <description>Recent content in Git on Rakesh</description>
+    <description>Recent content in Git on Rakesh Core</description>
     <generator>Hugo</generator>
     <language>en</language>
     <atom:link href="//localhost:1313/docs/version-control/git/index.xml" rel="self" type="application/rss+xml" />
@@ -12,7 +12,7 @@
       <link>//localhost:1313/docs/version-control/git/gitconfig/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/docs/version-control/git/gitconfig/</guid>
-      <description>&lt;p&gt;gitconfig can either configured globally or per repository&lt;/p&gt;&#xA;&lt;p&gt;to configure globally pass &lt;code&gt;--global&lt;/code&gt; flag&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;git config --global user.name &amp;quot;Rakesh&amp;quot;&lt;/code&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;gitconfig can either configured globally or per repository&lt;/p&gt;&#xA;&lt;p&gt;to configure globally pass &lt;code&gt;--global&lt;/code&gt; flag&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git config --global user.name &amp;#34;Rakesh Nagarajan&amp;#34;&#xA;&#xA;git config --global user.email rakesh.core01@gmail.com&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;You can also edit in the file&lt;/p&gt;&#xA;&lt;p&gt;~/.gitconfig or  ~/.config/git/config&lt;/p&gt;&#xA;&lt;p&gt;In these files contains sections, edit the respective sections&lt;/p&gt;&#xA;&lt;p&gt;Reference&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration&#34;&gt;https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://git-scm.com/docs/git-config&#34;&gt;https://git-scm.com/docs/git-config&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>
