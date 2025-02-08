@@ -7,6 +7,8 @@ categories: [Cloud]
 tags: [PrivateCloud]
 ---
 
+
+
 ### Possible deployment options 
 https://www.openstack.org/software/project-navigator/deployment-tools
 

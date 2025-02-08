@@ -43,6 +43,11 @@ OSD - store data, replication, (atleast 3 osd required)
 MSD - cpu intensive 
 
 
+### Architecture 
+
+
+
+
 ## installation
 
 

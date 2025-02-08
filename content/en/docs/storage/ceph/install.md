@@ -40,6 +40,8 @@ Reference: https://docs.ceph.com/en/latest/install/get-packages/
 `cephadm bootstrap --mon-ip *<mon-ip>* --ssh-user core`
  --ssh-private-key 
  --ssh-public-key
+--cluster-name
+--skip-monitoring-stack
 
 configuration directory: /etc/ceph 
 

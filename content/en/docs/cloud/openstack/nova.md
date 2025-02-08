@@ -31,3 +31,11 @@ nova-serialproxy
 
 
 
+## Booting process
+
+GRUB/pxelinux --> bootloaders
+
+iPXE/PXE --> contacts TFTP/http --> sends pxelinux.o/grub2 
+
+BIOS/UEFI
+
